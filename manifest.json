@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "TruthLens",
+    "version": "0.1.0",
+    "description": "See real-world hardware benchmarks while browsing product pages.",
+
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}

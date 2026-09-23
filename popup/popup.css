@@ -1,0 +1,55 @@
+:root {
+    --background: #0a0d0b;
+    --surface: #111612;
+    --border: #263329;
+    --green: #7fb58a;
+    --text: #f1f4f1;
+    --muted: #9aa49d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 360px;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
+
+.popup {
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.header p {
+    margin: 4px 0 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.status {
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.status h2 {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+.status p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.5;
+}
