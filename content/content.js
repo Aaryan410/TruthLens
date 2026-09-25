@@ -8,7 +8,12 @@ for (const heading of headings) {
         const hardware = heading.querySelector(".product-tile-subheading");
 
         const cleanedHardware = hardware?.innerText?.replace("chip", "").trim();
+        const normalizedHardware = cleanedHardware.replace(" or ", ", ");
+        const hardwareOptions = normalizedHardware
+            .split(",")
+            .map(item => item.trim());
 
+        console.log(hardwareOptions);
         console.log("RAW HARDWARE:", JSON.stringify(hardware?.innerText));
         console.log("CLEANED HARDWARE:", JSON.stringify(cleanedHardware));
 
