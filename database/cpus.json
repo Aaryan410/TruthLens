@@ -1,0 +1,529 @@
+{
+    "intel": [
+        {
+            "Intel Core i9": [
+                {
+                    "model": "9900KS",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": 5.0
+                    },
+                    "tdp": "127 W"
+                },
+
+                {
+                    "model": "9900K",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9900KF",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9900",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": 5.0
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9900T",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.1,
+                        "turbo": 4.4
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7980XE",
+                    "cores": 18,
+                    "threads": 36,
+                    "clock_rate": {
+                        "base": 2.6,
+                        "turbo 2.0": 4.2,
+                        "turbo 3.0": 4.4
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "7960X",
+                    "cores": 16,
+                    "threads": 32,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo 2.0": 4.2,
+                        "turbo 3.0": 4.4
+                    },
+                    "tdp": "91 W"
+                },
+
+                {
+                    "model": "7940X",
+                    "cores": 14,
+                    "threads": 28,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo 2.0": 4.3,
+                        "turbo 3.0": 4.4
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "7920X",
+                    "cores": 12,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo 2.0": 4.3,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "140 W"
+                },
+
+                {
+                    "model": "7900X",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo 2.0": 4.3,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "140 W"
+                }
+            ],
+
+
+            "Intel Core i7": [
+                {
+                    "model": "8086K",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": 5.0
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "8700K",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.7
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "8700",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8700T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 4.0
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7700",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.2
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "7700T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 3.8
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7820X",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate (GHz)": {
+                        "base": 3.6,
+                        "turbo 2.0": 4.3,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "140 W"
+                },
+
+                {
+                    "model": "7800X",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate (GHz)": {
+                        "base": 3.5,
+                        "turbo 2.0": 4.0
+                    },
+                    "tdp": "140 W"
+                },
+
+                {
+                    "model": "7740X",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 4.3,
+                        "turbo": 4.5
+                    },
+                    "tdp": "112 W"
+                }
+            ],
+
+
+            "Intel Core i5": [
+                {
+                    "model": "8600K",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.3
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "8600",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": 4.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8600T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.3,
+                        "turbo": 3.7
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "8500",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8500T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.1,
+                        "turbo": 3.5
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "8400",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo": 4.0
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8400T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 1.7,
+                        "turbo": 3.3
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7600K",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 4.2
+                    },
+                    "tdp": "91 W"
+                },
+
+                {
+                    "model": "7600",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": 4.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "7600T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo": 3.70
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7500",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.4,
+                        "turbo": 3.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "7500T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 2.7,
+                        "turbo": 3.3
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7400",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 3.5
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "7400T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 3.0
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7640X",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": 4.2
+                    },
+                    "tdp": "112 W"
+                }
+
+            ],
+
+
+            "Intel Core i3": [
+                {
+                    "model": "8350K",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": "None"
+                    },
+                    "tdp": "91 W"
+                },
+
+                {
+                    "model": "8300",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": "None"
+                    },
+                    "tdp": "62 W"
+                },
+
+                {
+                    "model": "8300T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": "None"
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "8100",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": "None"
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8100F",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": "None"
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "8100T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": "None"
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7350K",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.2,
+                        "turbo": "None"
+                    },
+                    "tdp": "60 W"
+                },
+
+                {
+                    "model": "7320",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.1,
+                        "turbo": "None"
+                    },
+                    "tdp": "51 W"
+                },
+
+                {
+                    "model": "7300",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": "None"
+                    },
+                    "tdp": "51 W"
+                },
+
+                {
+                    "model": "7300T",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": "None"
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "7100",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": "None"
+                    },
+                    "tdp": "51 W"
+                },
+
+                {
+                    "model": "7100T",
+                    "cores": 2,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.4,
+                        "turbo": "None"
+                    },
+                    "tdp": "35 W"
+                }
+            ]
+        }
+    ]
+}
