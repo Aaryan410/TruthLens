@@ -3,6 +3,90 @@
         {
             "Intel Core i9": [
                 {
+                    "model": "9990XE",
+                    "cores": 14,
+                    "threads": 28,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo 2.0": 5.0,
+                        "turbo 3.0": 5.0
+                    },
+                    "tdp": "255 W"
+                },
+
+                {
+                    "model": "9980XE",
+                    "cores": 18,
+                    "threads": 36,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "9960X",
+                    "cores": 16,
+                    "threads": 32,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "9940X",
+                    "cores": 14,
+                    "threads": 28,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "9920X",
+                    "cores": 12,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "9900X",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "9820X",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+                
+                {
                     "model": "9900KS",
                     "cores": 8,
                     "threads": 16,
@@ -120,6 +204,18 @@
 
 
             "Intel Core i7": [
+                {
+                    "model": "9800X",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo 2.0": 4.4,
+                        "turbo 3.0": 4.5
+                    },
+                    "tdp": "165 W"
+                },
+
                 {
                     "model": "9700K",
                     "cores": 8,
