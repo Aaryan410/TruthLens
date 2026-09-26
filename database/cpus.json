@@ -121,6 +121,61 @@
 
             "Intel Core i7": [
                 {
+                    "model": "9700K",
+                    "cores": 8,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.9
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9700KF",
+                    "cores": 8,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.9
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9700",
+                    "cores": 8,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.7
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9700F",
+                    "cores": 8,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.7
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9700T",
+                    "cores": 8,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 2.0,
+                        "turbo": 4.3
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "8086K",
                     "cores": 6,
                     "threads": 12,
@@ -223,6 +278,116 @@
 
 
             "Intel Core i5": [
+                {
+                    "model": "9600K",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.6
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9600KF",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.6
+                    },
+                    "tdp": "95 W"
+                },
+
+                {
+                    "model": "9600",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9600T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.3,
+                        "turbo": 3.9
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "9500",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9500F",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9500T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.2,
+                        "turbo": 3.7
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "9400",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 4.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9400F",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 4.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9400T",
+                    "cores": 6,
+                    "threads": 6,
+                    "clock_rate": {
+                        "base": 1.8,
+                        "turbo": 3.4
+                    },
+                    "tdp": "35 W"
+                },
+
                 {
                     "model": "8600K",
                     "cores": 6,
@@ -393,8 +558,96 @@
 
             "Intel Core i3": [
                 {
+                    "model": "9350K",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": 4.6
+                    },
+                    "tdp": "91 W"
+                },
+
+                {
+                    "model": "9350KF",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 4.0,
+                        "turbo": 4.6
+                    },
+                    "tdp": "91 W"
+                },
+
+                {
+                    "model": "9320",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.4
+                    },
+                    "tdp": "62 W"
+                },
+
+                {
+                    "model": "9300",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.3
+                    },
+                    "tdp": "62 W"
+                },
+
+                {
+                    "model": "9300T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 3.8
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "9100",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.2
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9100F",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.2
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "9100T",
+                    "cores": 4,
+                    "threads": 4,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": 3.7
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "8350K",
-                    "cores": 2,
+                    "cores": 4,
                     "threads": 4,
                     "clock_rate": {
                         "base": 4.0,
