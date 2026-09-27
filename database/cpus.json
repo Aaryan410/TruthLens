@@ -3,6 +3,73 @@
         {
             "Intel Core i9": [
                 {
+                    "model": "12900KS",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.4,
+                        "turbo": 5.3,
+                        "tvb": 5.5
+                    },
+                    "tdp": "150 W"
+                },
+
+                {
+                    "model": "12900K",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12900KF",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12900",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12900F",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12900T",
+                    "cores": 16,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 1.4,
+                        "turbo": 4.9
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "11900KB",
                     "cores": 8,
                     "threads": 16,
@@ -407,6 +474,61 @@
 
             "Intel Core i7": [
                 {
+                    "model": "12700K",
+                    "cores": 12,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12700KF",
+                    "cores": 12,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12700",
+                    "cores": 12,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.1,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12700F",
+                    "cores": 12,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.1,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12700T",
+                    "cores": 12,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 1.4,
+                        "turbo": 4.7
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "11700B",
                     "cores": 8,
                     "threads": 16,
@@ -686,6 +808,116 @@
 
 
             "Intel Core i5": [
+                {
+                    "model": "12600K",
+                    "cores": 10,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.9
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12600KF",
+                    "cores": 10,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.9
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "12600",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12600T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.1,
+                        "turbo": 4.6
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "12500",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12500T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.0,
+                        "turbo": 4.4
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "12490F",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12400",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12400F",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "12400T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 1.8,
+                        "turbo": 4.2
+                    },
+                    "tdp": "35 W"
+                },
+
                 {
                     "model": "11600K",
                     "cores": 6,
@@ -1185,6 +1417,61 @@
 
 
             "Intel Core i3": [
+                {
+                    "model": "12300",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": 4.4
+                    },
+                    "tdp": "60 W"
+                },
+
+                {
+                    "model": "12300T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 2.3,
+                        "turbo": 4.2
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "12100",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.3
+                    },
+                    "tdp": "60 W"
+                },
+
+                {
+                    "model": "12100F",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.3
+                    },
+                    "tdp": "58 W"
+                },
+
+                {
+                    "model": "12100T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 2.2,
+                        "turbo": 4.1
+                    },
+                    "tdp": "35 W"
+                },
+
                 {
                     "model": "11100B",
                     "cores": 4,
