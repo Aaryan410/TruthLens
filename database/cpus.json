@@ -1188,6 +1188,130 @@
             ],
 
 
+            "Intel Core Ultra 5": [
+                {
+                    "model": "250K Plus",
+                    "cores": 18,
+                    "threads": 18,
+                    "clock_rate": {
+                        "base": 4.2,
+                        "turbo": 5.3
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "250KF Plus",
+                    "cores": 18,
+                    "threads": 18,
+                    "clock_rate": {
+                        "base": 4.2,
+                        "turbo": 5.3
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "245K",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 4.2,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "245KF",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 4.2,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "245",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "245T",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 2.2,
+                        "turbo": 5.1
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "235",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 3.4,
+                        "turbo": 5.0
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "235T",
+                    "cores": 14,
+                    "threads": 14,
+                    "clock_rate": {
+                        "base": 2.2,
+                        "turbo": 5.0
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "225",
+                    "cores": 10,
+                    "threads": 10,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "225F",
+                    "cores": 10,
+                    "threads": 10,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "225T",
+                    "cores": 10,
+                    "threads": 10,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 4.9
+                    },
+                    "tdp": "35 W"
+                }
+            ],
+
+
             "Intel Core i5": [
                 {
                     "model": "14600K",
