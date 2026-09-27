@@ -3,6 +3,72 @@
         {
             "Intel Core i9": [
                 {
+                    "model": "11900KB",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11900K",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11900KF",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11900",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11900F",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11900T",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 1.5,
+                        "turbo": 4.9
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "10900K",
                     "cores": 10,
                     "threads": 20,
@@ -341,6 +407,72 @@
 
             "Intel Core i7": [
                 {
+                    "model": "11700B",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 4.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11700K",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11700KF",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 5.1
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11700",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11700F",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 4.9
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11700T",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 1.4,
+                        "turbo": 4.6
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "10700K",
                     "cores": 8,
                     "threads": 16,
@@ -554,6 +686,116 @@
 
 
             "Intel Core i5": [
+                {
+                    "model": "11600K",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": 4.9
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11600KF",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": 4.9
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "11600",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo": 4.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11600T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 1.7,
+                        "turbo": 4.1
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "11500",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.7,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11500T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 1.5,
+                        "turbo": 3.9
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "11400",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.6,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11400F",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.6,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "11400T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 1.3,
+                        "turbo": 3.7
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "11500B",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
                 {
                     "model": "10600K",
                     "cores": 6,
@@ -943,6 +1185,17 @@
 
 
             "Intel Core i3": [
+                {
+                    "model": "11100B",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
                 {
                     "model": "10320",
                     "cores": 4,
