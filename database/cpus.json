@@ -38,6 +38,7 @@
                 }
             ],
 
+
             "Intel Core i9": [
                 {
                     "model": "14900KS",
@@ -647,6 +648,75 @@
                         "turbo 3.0": 4.5
                     },
                     "tdp": "140 W"
+                }
+            ],
+
+
+            "Intel Core Ultra 7": [
+                {
+                    "model": "270K Plus",
+                    "cores": 24,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 5.5
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "265K",
+                    "cores": 20,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": 5.5
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "265KF",
+                    "cores": 20,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": 5.5
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "265",
+                    "cores": 20,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 5.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "265F",
+                    "cores": 20,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 5.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "265T",
+                    "cores": 20,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 1.5,
+                        "turbo": 5.3
+                    },
+                    "tdp": "35 W"
                 }
             ],
 
