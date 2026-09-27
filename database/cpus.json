@@ -3,6 +3,142 @@
         {
             "Intel Core i9": [
                 {
+                    "model": "10900K",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10900KF",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 5.2
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                   "model": "10910",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.0
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10900",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo": 5.1
+                    },
+                    "tdp": "80 W"
+                },
+
+                {
+                    "model": "10900F",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 2.8,
+                        "turbo": 5.1
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10900T",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 1.9,
+                        "turbo": 4.6
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10900TE",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 1.8,
+                        "turbo": 4.5
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10850K",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 5.1
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10980XE",
+                    "cores": 18,
+                    "threads": 36,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo 2.0": 4.6,
+                        "turbo 3.0": 4.8
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "10940X",
+                    "cores": 14,
+                    "threads": 28,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo 2.0": 4.6,
+                        "turbo 3.0": 4.8
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "10920X",
+                    "cores": 12,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.5,
+                        "turbo 2.0": 4.6,
+                        "turbo 3.0": 4.8
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
+                    "model": "10900X",
+                    "cores": 10,
+                    "threads": 20,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo 2.0": 4.5,
+                        "turbo 3.0": 4.7
+                    },
+                    "tdp": "165 W"
+                },
+
+                {
                     "model": "9990XE",
                     "cores": 14,
                     "threads": 28,
@@ -205,6 +341,50 @@
 
             "Intel Core i7": [
                 {
+                    "model": "10700K",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 5.1
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10700KF",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 5.1
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10700",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 4.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10700T",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.0,
+                        "turbo": 4.5
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
                     "model": "9800X",
                     "cores": 8,
                     "threads": 16,
@@ -374,6 +554,116 @@
 
 
             "Intel Core i5": [
+                {
+                    "model": "10600K",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 4.1,
+                        "turbo": 4.8
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10600KF",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 4.1,
+                        "turbo": 4.8
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "10600",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.3,
+                        "turbo": 4.8
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10600T",
+                    "cores": 8,
+                    "threads": 16,
+                    "clock_rate": {
+                        "base": 2.4,
+                        "turbo": 4.0
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10500",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.1,
+                        "turbo": 4.5
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10500T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.3,
+                        "turbo": 3.8
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10400",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 4.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10400F",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.9,
+                        "turbo": 4.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10400T",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 2.0,
+                        "turbo": 3.6
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10505",
+                    "cores": 6,
+                    "threads": 12,
+                    "clock_rate": {
+                        "base": 3.2,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
                 {
                     "model": "9600K",
                     "cores": 6,
@@ -653,6 +943,138 @@
 
 
             "Intel Core i3": [
+                {
+                    "model": "10320",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 4.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10300",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10300T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 3.9
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10100",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10100F",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.6,
+                        "turbo": 4.3
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10100T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 3.8
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10325",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.9,
+                        "turbo": 4.7
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10305",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.8,
+                        "turbo": 4.5
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10305T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 4.0
+                    },
+                    "tdp": "35 W"
+                },
+
+                {
+                    "model": "10105",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10105F",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 4.4
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "10105T",
+                    "cores": 4,
+                    "threads": 8,
+                    "clock_rate": {
+                        "base": 3.0,
+                        "turbo": 3.9
+                    },
+                    "tdp": "35 W"
+                },
+
                 {
                     "model": "9350K",
                     "cores": 4,
