@@ -1,6 +1,43 @@
 {
     "intel": [
         {
+            "Intel Core Ultra 9": [
+                {
+                    "model": "285K",
+                    "cores": 24,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 3.7,
+                        "turbo": 5.6,
+                        "tvb": 5.7
+                    },
+                    "tdp": "125 W"
+                },
+
+                {
+                    "model": "285",
+                    "cores": 24,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 2.5,
+                        "turbo": 5.5,
+                        "tvb": 5.6
+                    },
+                    "tdp": "65 W"
+                },
+
+                {
+                    "model": "285T",
+                    "cores": 24,
+                    "threads": 24,
+                    "clock_rate": {
+                        "base": 1.4,
+                        "turbo": 5.4
+                    },
+                    "tdp": "35 W"
+                }
+            ],
+
             "Intel Core i9": [
                 {
                     "model": "14900KS",
