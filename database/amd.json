@@ -1,5 +1,85 @@
 {
+    "Ryzen 9": [
+        {
+            "model": "3950X",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 4.7
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "3900XT",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.7
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "3900X",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.6
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "3900",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.1,
+                "boost": 4.3
+            },
+            "tdp": "65 W"
+        }
+    ],
+
+
     "Ryzen 7": [
+        {
+            "model": "3800XT",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.9,
+                "boost": 4.7
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "3800X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.9,
+                "boost": 4.5
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "3700X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
         {
             "model": "2700X",
             "cores": 8,
@@ -96,6 +176,116 @@
 
 
     "Ryzen 5": [
+        {
+            "model": "PRO 3400G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3400G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "PRO 3400GE",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 4.0
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "PRO 3350G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "PRO 3350GE",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 3.9
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "3600XT",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.5
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "3600X",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.4
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "3600",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3500X",
+            "cores": 6,
+            "threads": 6,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.1
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3500",
+            "cores": 6,
+            "threads": 6,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.1
+            },
+            "tdp": "65 W"
+        },
+
         {
             "model": "2400G",
             "cores": 4,
@@ -249,6 +439,72 @@
 
     "Ryzen 3": [
         {
+            "model": "PRO 3200G",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3200G",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3200GE",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 3.8
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "PRO 3200GE",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 3.8
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "3300X",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.3
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "3100",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
             "model": "2200G",
             "cores": 4,
             "threads": 4,
@@ -355,6 +611,39 @@
 
     "Ryzen Threadripper": [
         {
+            "model": "3990X",
+            "cores": 64,
+            "threads": 128,
+            "clock_rate": {
+                "base": 2.9,
+                "boost": 4.3
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "3970X",
+            "cores": 32,
+            "threads": 64,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "3960X",
+            "cores": 24,
+            "threads": 48,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
             "model": "2990WX",
             "cores": 32,
             "threads": 64,
@@ -432,6 +721,53 @@
                 "xfr": 4.2
             },
             "tdp": "180 W"
+        }
+    ],
+
+
+    "Ryzen Threadripper PRO": [
+        {
+            "model": "3995WX",
+            "cores": 64,
+            "threads": 128,
+            "clock_rate": {
+                "base": 2.7,
+                "boost": 4.2
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "3975WX",
+            "cores": 32,
+            "threads": 64,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 4.2
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "3955WX",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.9,
+                "boost": 4.3
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "3945WX",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 4.0,
+                "boost": 4.3
+            },
+            "tdp": "280 W"
         }
     ]
 }
