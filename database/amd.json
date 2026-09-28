@@ -48,6 +48,39 @@
 
     "Ryzen 7": [
         {
+            "model": "4700LE",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4700G",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4700GE",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.1,
+                "boost": 4.3
+            },
+            "tdp": "35 W"
+        },
+
+        {
             "model": "3800XT",
             "cores": 8,
             "threads": 16,
@@ -176,6 +209,39 @@
 
 
     "Ryzen 5": [
+        {
+            "model": "4500",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.1
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4600G",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4600GE",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 4.2
+            },
+            "tdp": "35 W"
+        },
+
         {
             "model": "PRO 3400G",
             "cores": 4,
@@ -438,6 +504,39 @@
 
 
     "Ryzen 3": [
+        {
+            "model": "4100",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4300G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "4300GE",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 4.0
+            },
+            "tdp": "35 W"
+        },
+
         {
             "model": "PRO 3200G",
             "cores": 4,
