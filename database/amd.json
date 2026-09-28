@@ -1,0 +1,228 @@
+{
+    "Ryzen 7": [
+        {
+            "model": "1800X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.6,
+                "pbo": 4.0,
+                "xfr": 4.1
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "1700X PRO",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "pbo": 3.8,
+                "xfr": 3.9
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "1700X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "pbo": 3.8,
+                "xfr": 3.9
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "1700 PRO",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.0,
+                "pbo": 3.7,
+                "xfr": 3.75
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1700",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.0,
+                "pbo": 3.7,
+                "xfr": 3.75
+            },
+            "tdp": "65 W"
+        }
+    ],
+
+
+    "Ryzen 5": [
+        {
+            "model": "1600X",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "pbo": 4.0,
+                "xfr": 4.1
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "1600 PRO",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.2,
+                "pbo": 3.6,
+                "xfr": 3.7
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1600",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.2,
+                "pbo": 3.6,
+                "xfr": 3.7
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1500X",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.5,
+                "pbo": 3.7,
+                "xfr": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1500 PRO",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.5,
+                "pbo": 3.7,
+                "xfr": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1400",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.2,
+                "pbo": 3.4,
+                "xfr": 3.45
+            },
+            "tdp": "65 W"
+        }
+    ],
+
+
+    "Ryzen 3": [
+        {
+            "model": "1300X",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.5,
+                "pbo": 3.7,
+                "xfr": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1300 PRO",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.5,
+                "pbo": 3.7,
+                "xfr": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1200 PRO",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.1,
+                "pbo": 3.4,
+                "xfr": 3.45
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1200",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.1,
+                "pbo": 3.4,
+                "xfr": 3.45
+            },
+            "tdp": "65 W"
+        }
+    ],
+
+
+    "Ryzen Threadripper": [
+        {
+            "model": "1950X",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.4,
+                "pbo": 4.0,
+                "xfr": 4.2
+            },
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "1920X",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.5,
+                "pbo": 4.0,
+                "xfr": 4.2
+            },
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "1900X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.8,
+                "pbo": 4.0,
+                "xfr": 4.2
+            },
+            "tdp": "180 W"
+        }
+    ]
+}
