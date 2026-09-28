@@ -1,6 +1,39 @@
 {
     "Ryzen 7": [
         {
+            "model": "2700X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.7,
+                "pb2": 4.3
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "2700",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.2,
+                "pb2": 4.1
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "2700E",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 2.8,
+                "pb2": 4.0
+            },
+            "tdp": "45 W"
+        },
+
+        {
             "model": "1800X",
             "cores": 8,
             "threads": 16,
@@ -63,6 +96,83 @@
 
 
     "Ryzen 5": [
+        {
+            "model": "2400G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 3.9
+            },
+            "tdp": "46–65 W"
+        },
+
+        {
+            "model": "2400GE",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.2,
+                "boost": 3.8
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "2600X",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "pb2": 4.2
+            },
+            "tdp": "95 W"
+        },
+
+        {
+            "model": "2600",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.4,
+                "pb2": 3.9
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "2600E",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.1,
+                "pb2": 4.0
+            },
+            "tdp": "45 W"
+        },
+
+        {
+            "model": "1600 (AF)",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.2,
+                "pb2": 3.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "2500X",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "pb2": 4.0
+            },
+            "tdp": "65 W"
+        },
+
         {
             "model": "1600X",
             "cores": 6,
@@ -139,6 +249,61 @@
 
     "Ryzen 3": [
         {
+            "model": "2200G",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 3.7
+            },
+            "tdp": "46–65 W"
+        },
+
+        {
+            "model": "2200GE",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.2,
+                "boost": 3.6
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "PRO 2100GE",
+            "cores": 2,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.2,
+                "boost": 3.6
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "2300X",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.5,
+                "pb2": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "1200 (AF)",
+            "cores": 4,
+            "threads": 4,
+            "clock_rate": {
+                "base": 3.1,
+                "pb2": 3.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
             "model": "1300X",
             "cores": 4,
             "threads": 4,
@@ -189,6 +354,50 @@
 
 
     "Ryzen Threadripper": [
+        {
+            "model": "2990WX",
+            "cores": 32,
+            "threads": 64,
+            "clock_rate": {
+                "base": 3.0,
+                "pb2": 4.2
+            },
+            "tdp": "250 W"
+        },
+
+        {
+            "model": "2970WX",
+            "cores": 24,
+            "threads": 48,
+            "clock_rate": {
+                "base": 3.0,
+                "pb2": 4.2
+            },
+            "tdp": "250 W"
+        },
+
+        {
+            "model": "2950X",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.5,
+                "pb2": 4.4
+            },
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "2920X",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.5,
+                "pb2": 4.3
+            },
+            "tdp": "180 W"
+        },
+
         {
             "model": "1950X",
             "cores": 16,
