@@ -1,6 +1,61 @@
 {
     "Ryzen 9": [
         {
+            "model": "5950X",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.9
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5900XT",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 4.8
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5900X",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.8
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5900",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.7
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "PRO 5945",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.7
+            },
+            "tdp": "65 W"
+        },
+
+        {
             "model": "3950X",
             "cores": 16,
             "threads": 32,
@@ -47,6 +102,138 @@
 
 
     "Ryzen 7": [
+        {
+            "model": "5800X3D",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.5
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5800XT",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.8
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5800X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.7
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5800",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5700X3D",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.1
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5700X",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "PRO 5845",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5700",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5705G",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5700G",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5705GE",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.2,
+                "boost": 4.6
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "5700GE",
+            "cores": 8,
+            "threads": 16,
+            "clock_rate": {
+                "base": 3.2,
+                "boost": 4.6
+            },
+            "tdp": "35 W"
+        },
+
         {
             "model": "4700LE",
             "cores": 8,
@@ -209,6 +396,182 @@
 
 
     "Ryzen 5": [
+        {
+            "model": "5600X3D",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.3,
+                "boost": 4.4
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5600XT",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.7
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600X",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600T",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 4.5
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.5,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600F",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.0
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "PRO 5645",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.7,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5500X3D",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.0
+            },
+            "tdp": "105 W"
+        },
+
+        {
+            "model": "5500F",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.0,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5500",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600GT",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.6
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5605G",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.9,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5600G",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.9,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5605GE",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.4
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "5600GE",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.4,
+                "boost": 4.4
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "5500GT",
+            "cores": 6,
+            "threads": 12,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.4
+            },
+            "tdp": "65 W"
+        },
+
         {
             "model": "4500",
             "cores": 6,
@@ -504,6 +867,61 @@
 
 
     "Ryzen 3": [
+        {
+            "model": "5100",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5305G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 4.0,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5300G",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 4.0,
+                "boost": 4.2
+            },
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "5305GE",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.2
+            },
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "5300GE",
+            "cores": 4,
+            "threads": 8,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.2
+            },
+            "tdp": "35 W"
+        },
+
         {
             "model": "4100",
             "cores": 4,
@@ -825,6 +1243,61 @@
 
 
     "Ryzen Threadripper PRO": [
+        {
+            "model": "5995WX",
+            "cores": 64,
+            "threads": 128,
+            "clock_rate": {
+                "base": 2.7,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "5975WX",
+            "cores": 32,
+            "threads": 64,
+            "clock_rate": {
+                "base": 3.6,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "5965WX",
+            "cores": 24,
+            "threads": 48,
+            "clock_rate": {
+                "base": 3.8,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "5955WX",
+            "cores": 16,
+            "threads": 32,
+            "clock_rate": {
+                "base": 4.0,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
+        {
+            "model": "5945WX",
+            "cores": 12,
+            "threads": 24,
+            "clock_rate": {
+                "base": 4.1,
+                "boost": 4.5
+            },
+            "tdp": "280 W"
+        },
+
         {
             "model": "3995WX",
             "cores": 64,
