@@ -55,71 +55,78 @@
         }
     ],
 
-    "GeForce RTX 2000 (Laptop)": [
+
+    "GeForce RTX 3000": [
         {
-            "model": "RTX 2050",
-            "vram": 4,
-            "tdp": "30–45 W"
+            "model": "RTX 3050",
+            "vram": 8,
+            "tdp": "130 W"
         },
 
         {
-            "model": "RTX 2060 Max-Q",
+            "model": "RTX 3050 (6GB)",
             "vram": 6,
-            "tdp": "65 W"
+            "tdp": "70 W"
         },
 
         {
-            "model": "RTX 2060 (Laptop)",
-            "vram": 6,
-            "tdp": "80–90 W"
+            "model": "RTX 3060",
+            "vram": 12,
+            "tdp": "170 W"
         },
 
         {
-            "model": "RTX 2070 Max-Q",
+            "model": "RTX 3060 (8GB)",
             "vram": 8,
-            "tdp": "80 W"
+            "tdp": "170 W"
         },
 
         {
-            "model": "RTX 2070 (Laptop)",
+            "model": "RTX 3060 Ti",
             "vram": 8,
-            "tdp": "115 W"
+            "tdp": "200 W"
         },
 
         {
-            "model": "RTX 2070 Super Max-Q",
+            "model": "RTX 3070",
             "vram": 8,
-            "tdp": "80 W"
+            "tdp": "220 W"
         },
 
         {
-            "model": "RTX 2070 Super (Laptop)",
+            "model": "RTX 3070 Ti",
             "vram": 8,
-            "tdp": "115 W"
+            "tdp": "290 W"
         },
 
         {
-            "model": "RTX 2080 Max-Q",
-            "vram": 8,
-            "tdp": "80 W"
+            "model": "RTX 3080",
+            "vram": 10,
+            "tdp": "320 W"
         },
 
         {
-            "model": "RTX 2080 (Laptop)",
-            "vram": 8,
-            "tdp": "150+ W"
+            "model": "RTX 3080 (12GB)",
+            "vram": 12,
+            "tdp": "350 W"
         },
 
         {
-            "model": "RTX 2080 Super Max-Q",
-            "vram": 8,
-            "tdp": "80 W"
+            "model": "RTX 3080 Ti",
+            "vram": 12,
+            "tdp": "350 W"
         },
 
         {
-            "model": "RTX 2080 Super (Laptop)",
-            "vram": 8,
-            "tdp": "150+ W"
+            "model": "RTX 3090",
+            "vram": 24,
+            "tdp": "350 W"
+        },
+
+        {
+            "model": "RTX 3090 Ti",
+            "vram": 24,
+            "tdp": "450 W"
         }
     ]
 }
