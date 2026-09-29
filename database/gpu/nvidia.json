@@ -1,0 +1,125 @@
+{
+    "GeForce RTX 2000": [
+        {
+            "model": "RTX 2060",
+            "vram": 6,
+            "tdp": "160 W"
+        },
+
+        {
+            "model": "RTX 2060 (12GB)",
+            "vram": 12,
+            "tdp": "185 W"
+        },
+
+        {
+            "model": "RTX 2060 Super",
+            "vram": 8,
+            "tdp": "175 W"
+        },
+
+        {
+            "model": "RTX 2070",
+            "vram": 8,
+            "tdp": "175 W"
+        },
+
+        {
+            "model": "RTX 2070 Super",
+            "vram": 8,
+            "tdp": "215 W"
+        },
+
+        {
+            "model": "RTX 2080",
+            "vram": 8,
+            "tdp": "215 W"
+        },
+
+        {
+            "model": "RTX 2080 Super",
+            "vram": 8,
+            "tdp": "250 W"
+        },
+
+        {
+            "model": "RTX 2080 Ti",
+            "vram": 11,
+            "tdp": "250 W"
+        },
+
+        {
+            "model": "Titan RTX",
+            "vram": 24,
+            "tdp": "280 W"
+        }
+    ],
+
+    "GeForce RTX 2000 (Laptop)": [
+        {
+            "model": "RTX 2050",
+            "vram": 4,
+            "tdp": "30–45 W"
+        },
+
+        {
+            "model": "RTX 2060 Max-Q",
+            "vram": 6,
+            "tdp": "65 W"
+        },
+
+        {
+            "model": "RTX 2060 (Laptop)",
+            "vram": 6,
+            "tdp": "80–90 W"
+        },
+
+        {
+            "model": "RTX 2070 Max-Q",
+            "vram": 8,
+            "tdp": "80 W"
+        },
+
+        {
+            "model": "RTX 2070 (Laptop)",
+            "vram": 8,
+            "tdp": "115 W"
+        },
+
+        {
+            "model": "RTX 2070 Super Max-Q",
+            "vram": 8,
+            "tdp": "80 W"
+        },
+
+        {
+            "model": "RTX 2070 Super (Laptop)",
+            "vram": 8,
+            "tdp": "115 W"
+        },
+
+        {
+            "model": "RTX 2080 Max-Q",
+            "vram": 8,
+            "tdp": "80 W"
+        },
+
+        {
+            "model": "RTX 2080 (Laptop)",
+            "vram": 8,
+            "tdp": "150+ W"
+        },
+
+        {
+            "model": "RTX 2080 Super Max-Q",
+            "vram": 8,
+            "tdp": "80 W"
+        },
+
+        {
+            "model": "RTX 2080 Super (Laptop)",
+            "vram": 8,
+            "tdp": "150+ W"
+        }
+    ]
+}
