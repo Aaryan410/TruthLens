@@ -1,0 +1,131 @@
+{
+    "M1": [
+        {
+            "model": "M1",
+            "cores": 8,
+            "gpu_cores": 8,
+            "clock_rate": 3.2,
+            "tdp": "39 W"
+        },
+
+        {
+            "model": "M1 Pro",
+            "cores": 10,
+            "gpu_cores": 16,
+            "clock_rate": 3.22,
+            "tdp": "62 W"
+        },
+
+        {
+            "model": "M1 Max",
+            "cores": 10,
+            "gpu_cores": 32,
+            "clock_rate": 3.22,
+            "tdp": "92 W"
+        }
+    ],
+
+    "M2": [
+        {
+            "model": "M2",
+            "cores": 8,
+            "gpu_cores": 10,
+            "clock_rate": 3.49,
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "M2 Pro",
+            "cores": 12,
+            "gpu_cores": 19,
+            "clock_rate": 3.70,
+            "tdp": "50 W"
+        },
+
+        {
+            "model": "M2 Max",
+            "cores": 12,
+            "gpu_cores": 38,
+            "clock_rate": 3.68,
+            "tdp": "92 W"
+        }
+    ],
+
+    "M3": [
+        {
+            "model": "M3",
+            "cores": 8,
+            "gpu_cores": 10,
+            "clock_rate": 4.05,
+            "tdp": "35 W"
+        },
+
+        {
+            "model": "M3 Pro",
+            "cores": 12,
+            "gpu_cores": 18,
+            "clock_rate": 4.05,
+            "tdp": "30 W"
+        },
+
+        {
+            "model": "M3 Max",
+            "cores": 16,
+            "gpu_cores": 40,
+            "clock_rate": 4.05,
+            "tdp": "82 W"
+        }
+    ],
+
+    "M4": [
+        {
+            "model": "M4",
+            "cores": 10,
+            "gpu_cores": 10,
+            "clock_rate": 4.46,
+            "tdp": "24 W"
+        },
+
+        {
+            "model": "M4 Pro",
+            "cores": 14,
+            "gpu_cores": 20,
+            "clock_rate": 4.51,
+            "tdp": "46 W"
+        },
+
+        {
+            "model": "M4 Max",
+            "cores": 16,
+            "gpu_cores": 40,
+            "clock_rate": 4.51,
+            "tdp": "90 W"
+        }
+    ],
+
+    "M5": [
+        {
+            "model": "M5",
+            "cores": 10,
+            "gpu_cores": 10,
+            "clock_rate": 4.61,
+            "tdp": "30 W"
+        },
+
+        {
+            "model": "M5 Pro",
+            "cores": 18,
+            "gpu_cores": 20,
+            "clock_rate": 4.61,
+            "tdp": "72 W"
+        },
+
+        {
+            "model": "M5 Max",
+            "cores": 18,
+            "gpu_cores": 40,
+            "clock_rate": 4.61,
+            "tdp": "100"
+        }
+    ]
+}
