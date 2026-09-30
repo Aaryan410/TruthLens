@@ -221,5 +221,56 @@
             "vram": 24,
             "tdp": "355 W"
         }
+    ],
+
+
+    "Radeon RX 9000": [
+        {
+            "model": "RX 9050",
+            "vram": 4,
+            "tdp": "92 W"
+        },
+
+        {
+            "model": "RX 9050 (8GB)",
+            "vram": 8,
+            "tdp": "92 W"
+        },
+
+        {
+            "model": "RX 9060",
+            "vram": 8,
+            "tdp": "132 W"
+        },
+
+        {
+            "model": "RX 9060 XT",
+            "vram": 8,
+            "tdp": "150 W"
+        },
+
+        {
+            "model": "RX 9060 XT (16GB)",
+            "vram": 16,
+            "tdp": "160 W"
+        },
+
+        {
+            "model": "RX 9070 GRE",
+            "vram": 12,
+            "tdp": "220 W"
+        },
+
+        {
+            "model": "RX 9070",
+            "vram": 16,
+            "tdp": "220 W"
+        },
+
+        {
+            "model": "RX 9070 XT",
+            "vram": 16,
+            "tdp": "304 W"
+        }
     ]
 }
