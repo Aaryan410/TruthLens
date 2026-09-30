@@ -197,5 +197,56 @@
             "vram": 24,
             "tdp": "425 W"
         }
+    ],
+
+
+    "GeForce RTX 5000": [
+        {
+            "model": "RTX 5050",
+            "vram": 8,
+            "tdp": "130 W"
+        },
+
+        {
+            "model": "RTX 5060",
+            "vram": 8,
+            "tdp": "145 W"
+        },
+
+        {
+            "model": "RTX 5060 Ti",
+            "vram": 8,
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "RTX 5060 Ti (16GB)",
+            "vram": 16,
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "RTX 5070",
+            "vram": 12,
+            "tdp": "250 W"
+        },
+
+        {
+            "model": "RTX 5070 Ti",
+            "vram": 16,
+            "tdp": "300 W"
+        },
+
+        {
+            "model": "RTX 5080",
+            "vram": 16,
+            "tdp": "360 W"
+        },
+
+        {
+            "model": "RTX 5090",
+            "vram": 32,
+            "tdp": "575 W"
+        }
     ]
 }
