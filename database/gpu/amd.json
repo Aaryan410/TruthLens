@@ -1,0 +1,63 @@
+{
+    "Radeon RX 5000": [
+        {
+            "model": "RX 5300",
+            "vram": 3,
+            "tdp": "100 W"
+        },
+
+        {
+            "model": "RX 5300 XT",
+            "vram": 4,
+            "tdp": "100 W"
+        },
+
+        {
+            "model": "RX 5500",
+            "vram": 4,
+            "tdp": "150 W"
+        },
+
+        {
+            "model": "RX 5500 XT",
+            "vram": 4,
+            "tdp": "130 W"
+        },
+
+        {
+            "model": "RX 5500 XT (8GB)",
+            "vram": 8,
+            "tdp": "130 W"
+        },
+
+        {
+            "model": "RX 5600",
+            "vram": 6,
+            "tdp": "150 W"
+        },
+
+        {
+            "model": "RX 5600 XT",
+            "vram": 6,
+            "tdp": "160 W"
+        },
+
+        {
+            "model": "RX 5700",
+            "vram": 8,
+            "tdp": "180 W"
+        },
+
+        {
+            "model": "RX 5700 XT",
+            "vram": 8,
+            "tdp": "225 W"
+        },
+
+        {
+            "model": "RX 5700 XT 50th Anniversary",
+            "vram": 8,
+            "tdp": "235 W"
+        }
+    ]
+}
