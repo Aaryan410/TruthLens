@@ -1,14 +1,31 @@
 import database
 
-company = input("Company > ").strip()
+component = input("Component > ").strip().lower()
+company = input("Company > ").strip().lower()
 
-component_database = database.load_data(company)
+component_database = database.load_data(component, company)
+
+print()
+
+print("Available Series:")
+for series in component_database:
+    print("-", series)
 
 series = input("Series > ").strip()
 
-series_data = component_database[series]
+if series not in component_database:
+    print("Series not found.")
+    exit()
 
 models = component_database[series]
+
+print()
+
+print("Available Models:")
+for hardware in models:
+    print("-", hardware["model"])
+
+print()
 
 model = input("Model > ")
 
@@ -23,29 +40,20 @@ if selected_model is None:
     print("Model not found.")
     exit()
 
-
-cores = selected_model["cores"]
-threads = selected_model["threads"]
-clock_rate_base = selected_model["clock_rate"]["base"]
-clock_rate_turbo = selected_model["clock_rate"]["turbo"]
-
-if "tvb" in selected_model["clock_rate"]:
-    tvb = selected_model["clock_rate"]["tvb"]
-else:
-    tvb = None
-
-tdp = selected_model["tdp"]
-
 print()
-
 print(f"Model: {selected_model['model']}")
-print(f"Cores: {cores}")
-print(f"Threads: {threads}")
-print(f"Base Clock Rate: {clock_rate_base}")
-print(f"Trubo Clock Rate: {clock_rate_turbo}")
 
-if tvb is not None:
-    print(f"TVB: {tvb}")
+for key, value in selected_model.items():
 
-print(f"TDP: {tdp}")
+    if key == "model":
+        continue
+
+    if isinstance(value, dict):
+        print(f"{key}:")
+
+        for sub_key, sub_value in value.items():
+            print(f" {sub_key}: {sub_value}")
+
+    else:
+        print(f"{key}: {value}")
 
