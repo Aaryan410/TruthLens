@@ -1,0 +1,23 @@
+:root {
+    --background: #0a0d0b;
+    --surface: #111612;
+    --border: #263329;
+    --green: #7fb58a;
+    --text: #f1f4f1;
+    --muted: #9aa49d;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: var(--text);
+}
+
+p {
+    color: var(--muted);
+}
