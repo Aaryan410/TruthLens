@@ -10,7 +10,10 @@
 
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": [
+                "https://www.apple.com/*",
+                "https://apple.com/"
+            ],
             "js": ["content/content.js"]
         }
     ]

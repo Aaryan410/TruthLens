@@ -3,7 +3,7 @@ const headings = document.querySelectorAll("h1, h2, h3");
 for (const heading of headings) {
     const text = heading.innerText;
 
-    if (text.includes("M5")) {
+    if (/\bM[1-5]\b/i.test(text)) {
         const product = heading.querySelector(".product-tile-headline");
         const hardware = heading.querySelector(".product-tile-subheading");
 
