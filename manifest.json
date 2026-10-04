@@ -11,10 +11,27 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.apple.com/*",
-                "https://apple.com/"
+                "http://*/*",
+                "https://*/*"
             ],
-            "js": ["content/content.js"]
+            "js": ["content/content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+
+    "web_accessible_resources": [
+        {
+            "resources": [    
+                "database/cpu/amd.json",
+                "database/cpu/apple.json",
+                "database/cpu/intel.json",
+                "database/gpu/amd.json",
+                "database/gpu/nvidia.json"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
         }
     ]
 }
