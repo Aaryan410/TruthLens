@@ -35,7 +35,7 @@ function makeAliasRegex(alias) {
     const words = alias.trim().split().filter(Boolean).map(escapeRegExp);
 
     const separator = "[\\s\\u00a0™®©\\-‐‑‒–—]+";
-    const pattern = words.json(separator);
+    const pattern = words.join(separator);
 
     return new RegExp(`(?<![A-Za-z0-9])${pattern}(?![A-Za-z0-9])`, "giu");
 }
@@ -124,7 +124,7 @@ function makeRecord(type, brand, family, spec) {
         family,
         model,
         name,
-        specification: spec,
+        specifications: spec,
         aliases: [...new Set(aliases.filter(Boolean))]
     };
 }
@@ -207,7 +207,7 @@ function findHardwareOnPage(pageText, records) {
                     start < range.end && end > range.start
                 );
 
-                if (!overLapsLongerMatch) {
+                if (!overlapsLongerMatch) {
                     foundMatch = { start, end, text: match[0] };
                     break;
                 }
@@ -265,7 +265,7 @@ scanPromise.then(
 );
 
 chrome.runtime.onMessage.addListener((message, _senior, sendResponse) => {
-    if (message?.type !== "TRUTHLENS_GET_SCANS") {
+    if (message?.type !== "TRUTHLENS_GET_SCAN") {
         return;
     }
 

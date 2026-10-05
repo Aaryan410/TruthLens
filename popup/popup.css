@@ -7,6 +7,10 @@
     --muted: #9aa49d;
 }
 
+.status p {
+    white-space: pre-line;
+}
+
 * {
     box-sizing: border-box;
 }
