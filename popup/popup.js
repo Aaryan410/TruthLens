@@ -1,5 +1,9 @@
 const statusHeading = document.querySelector(".status h2")
 const statusText = document.querySelector(".status p");
+const statusSection = document.querySelector(".status");
+const benchmarkSection = document.createElement("div");
+benchmarkSection.className = "truthlens-benchmark-results";
+statusSection?.appendChild(benchmarkSection);
 
 function formatSpecifications(specifications) {
     return Object.entries(specifications)
@@ -28,6 +32,118 @@ function formatSpecifications(specifications) {
         .join(" • ");
 }
 
+async function loadBenchmarkDatabase() {
+    const url = chrome.runtime.getURL("database/benchmarks.json");
+    const response = await fetch(url);
+
+    if (!response.ok) {
+        throw new Error(`Could not load benchmark data (HTTP ${response.status}).`);
+    }
+
+    return response.json();
+}
+
+function findBenchmarksRecord(match, benchmarkModels) {
+    const modelName = match.name ?? "";
+    const possibleNames = [modelName];
+
+    if (/^NVIDIA GeForce /i.test(modelName)) {
+        possibleNames.push(modelName.replace(/^NVIDIA GeForce /i, "NVIDIA "));
+    }
+
+    else if (/^NVIDIA RTX /i.test(modelName)) {
+        possibleNames.push(modelName.replace(/^NVIDIA /i, "NVIDIA GeForce "));
+    }
+
+    for (const name of possibleNames) {
+        if (benchmarkModels[name]) {
+            return benchmarkModels[name];
+        }
+    }
+
+    return null;
+}
+
+function formatScore(score) {
+    return new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 0
+    }).format(score);
+}
+
+function createBenchmarkCard(match, comparison) {
+    const card = document.createElement("div");
+    card.className = "truthlens-benchmark";
+
+    const heading = document.createElement("h3");
+    heading.textContent = `${match.name} vs ${comparison.previousGeneration}`;
+    card.appendChild(heading);
+
+    const benchmarkName = document.createElement("p");
+    benchmarkName.textContent = comparison.benchmarkName;
+    card.appendChild(benchmarkName);
+
+    for (const metric of comparison.metrics) {
+        const change = ((metric.currentScore - metric.previousScore) / metric.previousScore) * 100;
+        const sign = change > 0 ? "+" : "";
+        const metricLine = document.createElement("p");
+        metricLine.textContent =
+            `${metric.label}: ${formatScore(metric.currentScore)} vs ` +
+            `${formatScore(metric.previousScore)} (${sign}${change.toFixed(1)}%)`;
+        card.appendChild(metricLine);
+    }
+
+    if (comparison.note) {
+        const note = document.createElement("p");
+        note.textContent = comparison.note;
+        card.appendChild(note);
+    }
+
+    const sourceLink = document.createElement("a");
+    sourceLink.href = comparison.source.url;
+    sourceLink.target = "_blank";
+    sourceLink.rel = "noopener noreferrer";
+    sourceLink.textContent = `${comparison.source.name} results ↗`;
+    card.appendChild(sourceLink);
+
+    return card;
+}
+
+async function showBenchmarkComparison(matches) {
+    benchmarkSection.replaceChildren();
+
+    let benchmarkDatabase;
+    try {
+        benchmarkDatabase = await loadBenchmarkDatabase();
+    }
+
+    catch (error) {
+        console.error("[TruthLens benchmarks]", error);
+        const message = document.createElement("p");
+        message.textContent = "Benchmark data could not be loaded.";
+        benchmarkSection.appendChild(message);
+        return;
+    }
+
+    const benchmarkModels = benchmarkDatabase.models ?? {};
+    const comparisons = matches
+        .map(match => ({
+            match,
+            comparison: findBenchmarksRecord(match, benchmarkModels)
+        }))
+        .filter(item => item.comparison);
+
+    if (comparisons.length === 0) {
+        const message = document.createElement("p");
+        message.textContent = "No previous-generation benchmark has been added for these models yet.";
+        benchmarkSection.appendChild(message);
+        return;
+    }
+
+    for (const { match, comparison } of comparisons) {
+        benchmarkSection.appendChild(createBenchmarkCard(match, comparison));
+    }
+}
+
 async function showPageScan() {
     try {
         const [tab] = await chrome.tabs.query({
@@ -38,6 +154,11 @@ async function showPageScan() {
         if (!tab?.id) {
             throw new Error("Could not find the active tab.");
         }
+
+        await chrome.scripting.executeScript({
+            target: { tabId: tab.id },
+            files: ["content/content.js"]
+        });
 
         const scan = await chrome.tabs.sendMessage(tab.id, {
             type: "TRUTHLENS_GET_SCAN"
@@ -71,6 +192,8 @@ async function showPageScan() {
                 return `${match.name}\n${specs}`;
             })
             .join("\n\n");
+        
+        await showBenchmarkComparison(scan.matches);
     }
 
     catch (error) {
@@ -79,21 +202,4 @@ async function showPageScan() {
         statusText.textContent = error?.message ?? String(error);
     }
 }
-
-chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
-    if (message?.type !== "TRUTHLENS_GET_SCAN") {
-        return false;
-    }
-
-    scanPromise.then (
-        sendResponse,
-        error => sendResponse ({
-            status: "error",
-            error: error.message
-        })
-    );
-
-    return true;
-})
-
 showPageScan();

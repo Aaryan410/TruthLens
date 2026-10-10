@@ -8,12 +8,11 @@
         "default_popup": "popup/popup.html"
     },
 
+    "permissions": ["activeTab", "scripting"],
+
     "content_scripts": [
         {
-            "matches": [
-                "http://*/*",
-                "https://*/*"
-            ],
+            "matches": ["<all_urls>"],
             "js": ["content/content.js"],
             "run_at": "document_idle"
         }

@@ -1,3 +1,13 @@
+;(() => {
+    const existingListener = globalThis.__truthLensScanListener;
+
+    if (
+        existingListener &&
+        chrome.runtime.onMessage.hasListener(existingListener)
+    ) {
+        return;
+    }
+
 const DATABASE_FILES = [
     {
         type: "CPU", 
@@ -264,19 +274,24 @@ scanPromise.then(
     error => console.error("[TruthLens] scan failed:", error)
 );
 
-chrome.runtime.onMessage.addListener((message, _senior, sendResponse) => {
-    if (message?.type !== "TRUTHLENS_GET_SCAN") {
-        return;
-    }
 
-    scanPromise
-        .then(sendResponse)
-        .catch(error => {
-            sendResponse({
-                status: "error",
-                error: error.message
+        const scanListener = (message, _sender, sendResponse) => {
+        if (message?.type !== "TRUTHLENS_GET_SCAN") {
+            return false;
+        }
+
+        scanPromise
+            .then(sendResponse)
+            .catch(error => {
+                sendResponse({
+                    status: "error",
+                    error: error.message
+                });
             });
-        });
 
-    return true;
-});
+        return true;
+    };
+
+    chrome.runtime.onMessage.addListener(scanListener);
+    globalThis.__truthLensScanListener = scanListener;
+})();
