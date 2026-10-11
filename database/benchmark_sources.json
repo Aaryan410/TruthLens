@@ -1,0 +1,22 @@
+{
+  "comparisons": [
+    {
+      "model": "Apple M5",
+      "previousGeneration": "Apple M4",
+      "currentResult": "14496729",
+      "previousResult": "14494680"
+    },
+    {
+      "model": "Apple M5 Pro",
+      "previousGeneration": "Apple M4 Pro",
+      "currentResult": "17613255",
+      "previousResult": "17681812"
+    },
+    {
+      "model": "Apple M5 Max",
+      "previousGeneration": "Apple M4 Max",
+      "currentResult": "17052721",
+      "previousResult": "17052197"
+    }
+  ]
+}
