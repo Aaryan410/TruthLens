@@ -170,7 +170,7 @@ def main():
                     if args.output.exists() else {'schemaVersion': 1, 'models': {}})
         data = generate(config, existing, args.html_dir)
         if args.dry_run:
-            print(json.dump(data, indent = 2, ensure_ascii = False))
+            print(json.dumps(data, indent = 2, ensure_ascii = False))
         else:
             atomic_write(args.output, data)
             print(f'Updated {args.output}')

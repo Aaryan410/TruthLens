@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "models": {
+    "Apple M5": {
+      "previousGeneration": "Apple M4",
+      "benchmarkName": "Geekbench 6.5.0 · CPU",
+      "sources": {
+        "name": "Geekbench",
+        "url": "https://browser.geekbench.com/v6/cpu/compare/14496729?baseline=14494680"
+      },
+      "note": "Individual published runs, not generation averages. Apple M5: 10 cores, 16.00 GB; Apple M4: 10 cores, 16.00 GB. System configuration and software can affect scores.",
+      "metrics": [
+        {
+          "label": "Single-core",
+          "currentScore": 4263,
+          "previousScore": 3880,
+          "unit": "score"
+        },
+        {
+          "label": "Multi-core",
+          "currentScore": 17862,
+          "previousScore": 15243,
+          "unit": "score"
+        }
+      ],
+      "results": {
+        "current": {
+          "url": "https://browser.geekbench.com/v6/cpu/14496729",
+          "chip": "Apple M5",
+          "version": "6.5.0",
+          "system": "MacBook Pro (14-inch, 2025)",
+          "cores": 10,
+          "memory": "16.00 GB",
+          "operatingSystem": "macOS 26.0 (Build 25A8353)",
+          "singleCore": 4263,
+          "multiCore": 17862
+        },
+        "previous": {
+          "url": "https://browser.geekbench.com/v6/cpu/14494680",
+          "chip": "Apple M4",
+          "version": "6.5.0",
+          "system": "MacBook Pro (14-inch, 2024)",
+          "cores": 10,
+          "memory": "16.00 GB",
+          "operatingSystem": "macOS 15.7 (Build 24G222)",
+          "singleCore": 3880,
+          "multiCore": 15243
+        }
+      },
+      "fetchedAt": "2026-10-13T13:40:30.162135+00:00"
+    },
+    "Apple M5 Pro": {
+      "previousGeneration": "Apple M4 Pro",
+      "benchmarkName": "Geekbench 6.7.0 · CPU",
+      "sources": {
+        "name": "Geekbench",
+        "url": "https://browser.geekbench.com/v6/cpu/compare/17613255?baseline=17681812"
+      },
+      "note": "Individual published runs, not generation averages. Apple M5 Pro: 15 cores, 24.00 GB; Apple M4 Pro: 12 cores, 24.00 GB. System configuration and software can affect scores.",
+      "metrics": [
+        {
+          "label": "Single-core",
+          "currentScore": 4283,
+          "previousScore": 3965,
+          "unit": "score"
+        },
+        {
+          "label": "Multi-core",
+          "currentScore": 26634,
+          "previousScore": 21213,
+          "unit": "score"
+        }
+      ],
+      "results": {
+        "current": {
+          "url": "https://browser.geekbench.com/v6/cpu/17613255",
+          "chip": "Apple M5 Pro",
+          "version": "6.7.0",
+          "system": "MacBook Pro (14-inch, 2026)",
+          "cores": 15,
+          "memory": "24.00 GB",
+          "operatingSystem": "macOS 26.4.1 (Build 25E253)",
+          "singleCore": 4283,
+          "multiCore": 26634
+        },
+        "previous": {
+          "url": "https://browser.geekbench.com/v6/cpu/17681812",
+          "chip": "Apple M4 Pro",
+          "version": "6.7.0",
+          "system": "MacBook Pro (14-inch, 2024)",
+          "cores": 12,
+          "memory": "24.00 GB",
+          "operatingSystem": "macOS 26.4.1 (Build 25E253)",
+          "singleCore": 3965,
+          "multiCore": 21213
+        }
+      },
+      "fetchedAt": "2026-10-13T13:40:30.207389+00:00"
+    },
+    "Apple M5 Max": {
+      "previousGeneration": "Apple M4 Max",
+      "benchmarkName": "Geekbench 6.6.0 · CPU",
+      "sources": {
+        "name": "Geekbench",
+        "url": "https://browser.geekbench.com/v6/cpu/compare/17052721?baseline=17052197"
+      },
+      "note": "Individual published runs, not generation averages. Apple M5 Max: 18 cores, 64.00 GB; Apple M4 Max: 16 cores, 128.00 GB. System configuration and software can affect scores.",
+      "metrics": [
+        {
+          "label": "Single-core",
+          "currentScore": 4333,
+          "previousScore": 4084,
+          "unit": "score"
+        },
+        {
+          "label": "Multi-core",
+          "currentScore": 29328,
+          "previousScore": 26699,
+          "unit": "score"
+        }
+      ],
+      "results": {
+        "current": {
+          "url": "https://browser.geekbench.com/v6/cpu/17052721",
+          "chip": "Apple M5 Max",
+          "version": "6.6.0",
+          "system": "MacBook Pro (16-inch, 2026)",
+          "cores": 18,
+          "memory": "64.00 GB",
+          "operatingSystem": "macOS 26.3.1 (Build 25D2128)",
+          "singleCore": 4333,
+          "multiCore": 29328
+        },
+        "previous": {
+          "url": "https://browser.geekbench.com/v6/cpu/17052197",
+          "chip": "Apple M4 Max",
+          "version": "6.6.0",
+          "system": "MacBook Pro (16-inch, 2024)",
+          "cores": 16,
+          "memory": "128.00 GB",
+          "operatingSystem": "macOS 26.3 (Build 25D125)",
+          "singleCore": 4084,
+          "multiCore": 26699
+        }
+      },
+      "fetchedAt": "2026-10-13T13:40:30.259752+00:00"
+    }
+  }
+}
