@@ -17,6 +17,20 @@
       "previousGeneration": "Apple M4 Max",
       "currentResult": "17052721",
       "previousResult": "17052197"
+    },
+    {
+      "model": "Ryzen 9 7950X",
+      "previousGeneration": "Ryzen 9 5950X",
+      "currentChip": "AMD Ryzen 9 7950X",
+      "previousChip": "AMD Ryzen 9 5950X",
+      "currentResult": "13898855",
+      "previousResult": "14549901"
+    },
+    {
+      "model": "Intel Core i9-13900K",
+      "previousGeneration": "Intel Core i9-12900K",
+      "currentResult": "17285060",
+      "previousResult": "17530372"
     }
   ]
 }

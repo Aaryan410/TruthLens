@@ -42,7 +42,11 @@ function escapeRegExp(value) {
 }
 
 function makeAliasRegex(alias) {
-    const words = alias.trim().split().filter(Boolean).map(escapeRegExp);
+    const words = alias
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(escapeRegExp)
 
     const separator = "[\\s\\u00a0™®©\\-‐‑‒–—]+";
     const pattern = words.join(separator);
@@ -210,7 +214,7 @@ function findHardwareOnPage(pageText, records) {
             let match;
 
             while ((match = regex.exec(pageText)) !== null) {
-                const start = match.update;
+                const start = match.index;
                 const end = start + match[0].length;
 
                 const overlapsLongerMatch = usedTextRanges.some(range => 

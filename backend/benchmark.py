@@ -60,9 +60,9 @@ def parse_result(html, expected_chip, url):
         if len(row) >= 2:
             fields.setdefault(row[0], row[1])
     text = ' '.join(' '.join(page.text).split())
-    version = re.search(r'Geekbench (6\.\d+\.\d+)(?: Pro)? for macOS AArch64', text)
+    version = re.search(r'Geekbench (6\.\d+\.\d+)(?: Pro)? for (macOS|Windows|Linux) (AArch64|AVX2|SSE2|AVX)', text)
     if not version:
-        raise ValueError(f'{url}: expected a Geekbench 6 macOS CPU result')
+        raise ValueError(f'{url}: expected a supported Geekbench 6 CPU result')
     chip = fields.get('Name')
     if chip != expected_chip:
         raise ValueError(f'{url}: expected {expected_chip}, found {chip!r}')
@@ -81,6 +81,8 @@ def parse_result(html, expected_chip, url):
         'system': fields.get('Model', 'Unknown'), 'cores': int(cores.group(1)),
         'memory': fields.get('Size', 'Unknown'),
         'operatingSystem': fields.get('Operating System', 'Unknown'),
+        'platform': version.group(2),
+        'architecture': version.group(3),
         **score,
     }
 
@@ -108,10 +110,13 @@ def make_comparison(entry, current, previous):
             f"{current['chip']}: {current['cores']} cores, {current['memory']}; "
             f"{previous['chip']}: {previous['cores']} cores, {previous['memory']}. "
             'System configuration and software can affect scores.')
+
+    if (current['platform'], current['architecture']) != (previous['platform'], previous['architecture']): raise ValueError(f"{entry['model']}: choose runs with matching platforms and architectures.")
+    
     return {
         'previousGeneration': entry['previousGeneration'],
         'benchmarkName': f"Geekbench {current['version']} · CPU",
-        'sources': {'name': 'Geekbench', 'url': 
+        'source': {'name': 'Geekbench', 'url': 
                     f'https://browser.geekbench.com/v6/cpu/compare/{current_id}?baseline={previous_id}'},
         'note': note,
         'metrics': [
@@ -137,8 +142,8 @@ def generate(config, existing, html_dir = None):
                 raise ValueError(f'Config entry is missing {key}')
         if entry['model'] in updates:
             raise ValueError(f"Duplicate model: {entry['model']}")
-        current = fetch_result(entry['currentResult'], entry['model'], html_dir)
-        previous = fetch_result(entry['previousResult'], entry['previousGeneration'], html_dir)
+        current = fetch_result(entry['currentResult'], entry.get('currentChip', entry['model']), html_dir)
+        previous = fetch_result(entry['previousResult'], entry.get('previousChip', entry['previousGeneration']), html_dir)
         updates[entry['model']] = make_comparison(entry, current, previous)
     return {**existing, 'models': {**existing['models'], **updates}}
 

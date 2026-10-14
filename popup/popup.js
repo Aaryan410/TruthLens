@@ -15,7 +15,7 @@ function formatSpecifications(specifications) {
                 return `clock_rate: ${value} GHz`;
             }
 
-            if (key === "clock_rate" && value && typeof value === "number") {
+            if (key === "clock_rate" && value && typeof value === "object") {
                 const rates = Object.entries(value)
                     .map(([kind, ghz]) => `${kind} ${ghz} GHz`)
                     .join(", ");
@@ -37,7 +37,7 @@ async function loadBenchmarkDatabase() {
     const response = await fetch(url);
 
     if (!response.ok) {
-        throw new Error(`Could not load benchmark data (HTTP ${response.status}).`);
+        throw new Error(`Could not load ${url}: HTTP ${response.status}`);
     }
 
     return response.json();
