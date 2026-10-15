@@ -260,6 +260,102 @@
         }
       },
       "fetchedAt": "2026-10-14T21:45:54.829215+00:00"
+    },
+    "NVIDIA GeForce RTX 5080": {
+      "previousGeneration": "NVIDIA GeForce RTX 4080",
+      "benchmarkName": "Geekbench 6.4.0 · GPU compute · Vulkan",
+      "source": {
+        "name": "Geekbench",
+        "url": "https://browser.geekbench.com/v6/compute/compare/4135903?baseline=3989361"
+      },
+      "note": "Individual published runs, not generation averages. Current text system: AMD Ryzen 9 9950X3D, 32.00 GB system RAM. Previous text system: AMD Ryzen 7 9800X3D, 64.00 GB system RAM. This is a GPU compute score, not gaming FPS. Drivers, power settings and system configuration can affect scores.",
+      "metrics": [
+        {
+          "label": "Vulkan compute",
+          "currentScore": 253097,
+          "previousScore": 236029,
+          "unit": "score"
+        }
+      ],
+      "results": {
+        "current": {
+          "url": "https://browser.geekbench.com/v6/compute/4135903",
+          "device": "NVIDIA GeForce RTX 5080",
+          "api": "Vulkan",
+          "score": 253097,
+          "version": "6.4.0",
+          "platform": "Windows",
+          "architecture": "AVX2",
+          "system": "Micro-Star International Co., Ltd. MS-7E49",
+          "cpu": "AMD Ryzen 9 9950X3D",
+          "systemMemory": "32.00 GB",
+          "operatingSystem": "Microsoft Windows 11 Pro (64-bit)",
+          "uploadDate": "May 10 2025 09:55 AM"
+        },
+        "previous": {
+          "url": "https://browser.geekbench.com/v6/compute/3989361",
+          "device": "NVIDIA GeForce RTX 4080",
+          "api": "Vulkan",
+          "score": 236029,
+          "version": "6.4.0",
+          "platform": "Windows",
+          "architecture": "AVX2",
+          "system": "Gigabyte Technology Co., Ltd. X870 AORUS ELITE WIFI7 ICE",
+          "cpu": "AMD Ryzen 7 9800X3D",
+          "systemMemory": "64.00 GB",
+          "operatingSystem": "Microsoft Windows 11 Pro (64-bit)",
+          "uploadDate": "April 10 2025 08:57 PM"
+        }
+      },
+      "fetchedAt": "2026-10-15T15:32:45.209421+00:00"
+    },
+    "AMD Radeon RX 7900 XTX": {
+      "previousGeneration": "AMD Radeon RX 6900 XT",
+      "benchmarkName": "Geekbench 6.4.0 · GPU compute · Vulkan",
+      "source": {
+        "name": "Geekbench",
+        "url": "https://browser.geekbench.com/v6/compute/compare/4212321?baseline=3790074"
+      },
+      "note": "Individual published runs, not generation averages. Current text system: AMD Ryzen 9 9950X, 96.00 GB system RAM. Previous text system: AMD Ryzen 9 5900X, 64.00 GB system RAM. This is a GPU compute score, not gaming FPS. Drivers, power settings and system configuration can affect scores.",
+      "metrics": [
+        {
+          "label": "Vulkan compute",
+          "currentScore": 251819,
+          "previousScore": 159729,
+          "unit": "score"
+        }
+      ],
+      "results": {
+        "current": {
+          "url": "https://browser.geekbench.com/v6/compute/4212321",
+          "device": "AMD Radeon RX 7900 XTX",
+          "api": "Vulkan",
+          "score": 251819,
+          "version": "6.4.0",
+          "platform": "Windows",
+          "architecture": "AVX2",
+          "system": "ASUS System Product Name",
+          "cpu": "AMD Ryzen 9 9950X",
+          "systemMemory": "96.00 GB",
+          "operatingSystem": "Microsoft Windows 11 Pro (64-bit)",
+          "uploadDate": "May 25 2025 03:44 AM"
+        },
+        "previous": {
+          "url": "https://browser.geekbench.com/v6/compute/3790074",
+          "device": "AMD Radeon RX 6900 XT",
+          "api": "Vulkan",
+          "score": 159729,
+          "version": "6.4.0",
+          "platform": "Windows",
+          "architecture": "AVX2",
+          "system": "ASUS System Product Name",
+          "cpu": "AMD Ryzen 9 5900X",
+          "systemMemory": "64.00 GB",
+          "operatingSystem": "Microsoft Windows 11 Pro (64-bit)",
+          "uploadDate": "March 07 2025 08:18 PM"
+        }
+      },
+      "fetchedAt": "2026-10-15T15:32:45.217198+00:00"
     }
   }
 }

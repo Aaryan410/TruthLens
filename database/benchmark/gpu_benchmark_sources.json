@@ -1,0 +1,18 @@
+{
+    "comparisons": [
+        {
+            "model": "NVIDIA GeForce RTX 5080",
+            "previousGeneration": "NVIDIA GeForce RTX 4080",
+            "api": "Vulkan",
+            "currentResult": "4135903",
+            "previousResult": "3989361"
+        },
+        {
+            "model": "AMD Radeon RX 7900 XTX",
+            "previousGeneration": "AMD Radeon RX 6900 XT",
+            "api": "Vulkan",
+            "currentResult": "4212321",
+            "previousResult": "3790074"
+        }
+    ]
+}
