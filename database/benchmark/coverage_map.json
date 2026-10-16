@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "description": "Explicit comparator policy. These are chosen comparison baselines, not manufacturer-certified successor relationships. Intel ordinary numbered series also uses a documented exact-tier/suffix rule. Missing mappings remain unresolved.",
+  "comparisons": {
+    "Ryzen 9 7950X3D": {
+      "previousGeneration": "Ryzen 9 5950X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 7950X": {
+      "previousGeneration": "Ryzen 9 5950X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 7900X3D": {
+      "previousGeneration": "Ryzen 9 5900X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 7900X": {
+      "previousGeneration": "Ryzen 9 5900X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 7900": {
+      "previousGeneration": "Ryzen 9 5900",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 5950X": {
+      "previousGeneration": "Ryzen 9 3950X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 5900XT": {
+      "previousGeneration": "Ryzen 9 3900XT",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 5900X": {
+      "previousGeneration": "Ryzen 9 3900X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 5900": {
+      "previousGeneration": "Ryzen 9 3900",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 9 PRO 7945": {
+      "previousGeneration": "Ryzen 9 PRO 5945",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 7800X3D": {
+      "previousGeneration": "Ryzen 7 5800X3D",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 7700X": {
+      "previousGeneration": "Ryzen 7 5800X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 7700": {
+      "previousGeneration": "Ryzen 7 5800",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5800X3D": {
+      "previousGeneration": "Ryzen 7 3800X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5800XT": {
+      "previousGeneration": "Ryzen 7 3800XT",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5800X": {
+      "previousGeneration": "Ryzen 7 3800X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5800": {
+      "previousGeneration": "Ryzen 7 3800X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5700X3D": {
+      "previousGeneration": "Ryzen 7 3700X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5700X": {
+      "previousGeneration": "Ryzen 7 3700X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5700": {
+      "previousGeneration": "Ryzen 7 3700X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5705G": {
+      "previousGeneration": "Ryzen 7 4700G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5700G": {
+      "previousGeneration": "Ryzen 7 4700G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5705GE": {
+      "previousGeneration": "Ryzen 7 4700GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 5700GE": {
+      "previousGeneration": "Ryzen 7 4700GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 3800XT": {
+      "previousGeneration": "Ryzen 7 2700X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 3800X": {
+      "previousGeneration": "Ryzen 7 2700X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 3700X": {
+      "previousGeneration": "Ryzen 7 2700",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 2700X": {
+      "previousGeneration": "Ryzen 7 1800X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 2700": {
+      "previousGeneration": "Ryzen 7 1700",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 7 PRO 7745": {
+      "previousGeneration": "Ryzen 7 PRO 5845",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7600X3D": {
+      "previousGeneration": "Ryzen 5 5600X3D",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7600X": {
+      "previousGeneration": "Ryzen 5 5600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7600": {
+      "previousGeneration": "Ryzen 5 5600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7500X3D": {
+      "previousGeneration": "Ryzen 5 5500X3D",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7500F": {
+      "previousGeneration": "Ryzen 5 5500F",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7500": {
+      "previousGeneration": "Ryzen 5 5500",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7400F": {
+      "previousGeneration": "Ryzen 5 5500F",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 7400": {
+      "previousGeneration": "Ryzen 5 5500",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600X3D": {
+      "previousGeneration": "Ryzen 5 3600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600XT": {
+      "previousGeneration": "Ryzen 5 3600XT",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600X": {
+      "previousGeneration": "Ryzen 5 3600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600T": {
+      "previousGeneration": "Ryzen 5 3600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600": {
+      "previousGeneration": "Ryzen 5 3600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600F": {
+      "previousGeneration": "Ryzen 5 3600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5500X3D": {
+      "previousGeneration": "Ryzen 5 3500X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5500F": {
+      "previousGeneration": "Ryzen 5 3500X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5500": {
+      "previousGeneration": "Ryzen 5 3500",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600GT": {
+      "previousGeneration": "Ryzen 5 4600G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5605G": {
+      "previousGeneration": "Ryzen 5 4600G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600G": {
+      "previousGeneration": "Ryzen 5 4600G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5605GE": {
+      "previousGeneration": "Ryzen 5 4600GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5600GE": {
+      "previousGeneration": "Ryzen 5 4600GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 5500GT": {
+      "previousGeneration": "Ryzen 5 4600G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 4500": {
+      "previousGeneration": "Ryzen 5 3500",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 4600G": {
+      "previousGeneration": "Ryzen 5 3400G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 4600GE": {
+      "previousGeneration": "Ryzen 5 3400GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3400G": {
+      "previousGeneration": "Ryzen 5 2400G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3600XT": {
+      "previousGeneration": "Ryzen 5 2600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3600X": {
+      "previousGeneration": "Ryzen 5 2600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3600": {
+      "previousGeneration": "Ryzen 5 2600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3500X": {
+      "previousGeneration": "Ryzen 5 2500X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 3500": {
+      "previousGeneration": "Ryzen 5 2500X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 2600X": {
+      "previousGeneration": "Ryzen 5 1600X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 2600": {
+      "previousGeneration": "Ryzen 5 1600",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 2500X": {
+      "previousGeneration": "Ryzen 5 1500X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 PRO 7645": {
+      "previousGeneration": "Ryzen 5 PRO 5645",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 PRO 3400G": {
+      "previousGeneration": "Ryzen 5 PRO 2400G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 PRO 3400GE": {
+      "previousGeneration": "Ryzen 5 PRO 2400GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 PRO 3350G": {
+      "previousGeneration": "Ryzen 5 PRO 2400G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 5 PRO 3350GE": {
+      "previousGeneration": "Ryzen 5 PRO 2400GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 5100": {
+      "previousGeneration": "Ryzen 3 4100",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 5305G": {
+      "previousGeneration": "Ryzen 3 4300G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 5300G": {
+      "previousGeneration": "Ryzen 3 4300G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 5305GE": {
+      "previousGeneration": "Ryzen 3 4300GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 5300GE": {
+      "previousGeneration": "Ryzen 3 4300GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 4100": {
+      "previousGeneration": "Ryzen 3 3100",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 4300G": {
+      "previousGeneration": "Ryzen 3 3200G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 4300GE": {
+      "previousGeneration": "Ryzen 3 3200GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 3200G": {
+      "previousGeneration": "Ryzen 3 2200G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 3200GE": {
+      "previousGeneration": "Ryzen 3 2200GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 3300X": {
+      "previousGeneration": "Ryzen 3 2300X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 2300X": {
+      "previousGeneration": "Ryzen 3 1300X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 PRO 3200G": {
+      "previousGeneration": "Ryzen 3 PRO 2200G",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen 3 PRO 3200GE": {
+      "previousGeneration": "Ryzen 3 PRO 2200GE",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 7980X": {
+      "previousGeneration": "Ryzen Threadripper 3990X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 7970X": {
+      "previousGeneration": "Ryzen Threadripper 3970X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 7960X": {
+      "previousGeneration": "Ryzen Threadripper 3960X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 3990X": {
+      "previousGeneration": "Ryzen Threadripper 2990WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 3970X": {
+      "previousGeneration": "Ryzen Threadripper 2990WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 3960X": {
+      "previousGeneration": "Ryzen Threadripper 2970WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 2950X": {
+      "previousGeneration": "Ryzen Threadripper 1950X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper 2920X": {
+      "previousGeneration": "Ryzen Threadripper 1920X",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7995WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5995WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7985WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5995WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7975WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5975WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7965WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5965WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7955WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5955WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 7945WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 5945WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 5995WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 3995WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 5975WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 3975WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 5955WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 3955WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Ryzen Threadripper PRO 5945WX": {
+      "previousGeneration": "Ryzen Threadripper PRO 3945WX",
+      "basis": "Chosen previous-series comparator within the product family; refresh, core-count and cache differences can exist."
+    },
+    "Intel Core i9-10980XE": {
+      "previousGeneration": "Intel Core i9-9980XE",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-10940X": {
+      "previousGeneration": "Intel Core i9-9940X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-10920X": {
+      "previousGeneration": "Intel Core i9-9920X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-10900X": {
+      "previousGeneration": "Intel Core i9-9900X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-9980XE": {
+      "previousGeneration": "Intel Core i9-7980XE",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-9960X": {
+      "previousGeneration": "Intel Core i9-7960X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-9940X": {
+      "previousGeneration": "Intel Core i9-7940X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-9920X": {
+      "previousGeneration": "Intel Core i9-7920X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i9-9900X": {
+      "previousGeneration": "Intel Core i9-7900X",
+      "basis": "Chosen previous HEDT-series comparator; both are HEDT models."
+    },
+    "Intel Core i7-9800X": {
+      "previousGeneration": "Intel Core i7-7820X",
+      "basis": "Chosen previous HEDT-series eight-core comparator."
+    },
+    "Intel Core Ultra 9 285K": {
+      "previousGeneration": "Intel Core i9-14900K",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 9 285": {
+      "previousGeneration": "Intel Core i9-14900",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 9 285T": {
+      "previousGeneration": "Intel Core i9-14900T",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 270K Plus": {
+      "previousGeneration": "Intel Core i7-14700K",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 265K": {
+      "previousGeneration": "Intel Core i7-14700K",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 265KF": {
+      "previousGeneration": "Intel Core i7-14700KF",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 265": {
+      "previousGeneration": "Intel Core i7-14700",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 265F": {
+      "previousGeneration": "Intel Core i7-14700F",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 7 265T": {
+      "previousGeneration": "Intel Core i7-14700T",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 250K Plus": {
+      "previousGeneration": "Intel Core i5-14600K",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 250KF Plus": {
+      "previousGeneration": "Intel Core i5-14600KF",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 245K": {
+      "previousGeneration": "Intel Core i5-14600K",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 245KF": {
+      "previousGeneration": "Intel Core i5-14600KF",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 245": {
+      "previousGeneration": "Intel Core i5-14600",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 245T": {
+      "previousGeneration": "Intel Core i5-14600T",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 235": {
+      "previousGeneration": "Intel Core i5-14500",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 235T": {
+      "previousGeneration": "Intel Core i5-14500T",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 225": {
+      "previousGeneration": "Intel Core i5-14400",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 225F": {
+      "previousGeneration": "Intel Core i5-14400F",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core Ultra 5 225T": {
+      "previousGeneration": "Intel Core i5-14400T",
+      "basis": "Chosen comparator from the preceding Core desktop platform; naming, core counts and power limits differ."
+    },
+    "Intel Core i3-12300": {
+      "previousGeneration": "Intel Core i3-10320",
+      "basis": "Chosen preceding mainstream desktop Core i3 comparator; numbered product lines are not complete in every series."
+    },
+    "Intel Core i3-12300T": {
+      "previousGeneration": "Intel Core i3-10300T",
+      "basis": "Chosen preceding mainstream desktop Core i3 comparator; numbered product lines are not complete in every series."
+    },
+    "Intel Core i3-12100": {
+      "previousGeneration": "Intel Core i3-10100",
+      "basis": "Chosen preceding mainstream desktop Core i3 comparator; numbered product lines are not complete in every series."
+    },
+    "Intel Core i3-12100F": {
+      "previousGeneration": "Intel Core i3-10100F",
+      "basis": "Chosen preceding mainstream desktop Core i3 comparator; numbered product lines are not complete in every series."
+    },
+    "Intel Core i3-12100T": {
+      "previousGeneration": "Intel Core i3-10100T",
+      "basis": "Chosen preceding mainstream desktop Core i3 comparator; numbered product lines are not complete in every series."
+    },
+    "NVIDIA GeForce RTX 5050": {
+      "previousGeneration": "NVIDIA GeForce RTX 3050",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5060": {
+      "previousGeneration": "NVIDIA GeForce RTX 4060",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5060 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 4060 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5060 Ti (16GB)": {
+      "previousGeneration": "NVIDIA GeForce RTX 4060 Ti (16GB)",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5070": {
+      "previousGeneration": "NVIDIA GeForce RTX 4070",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5070 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 4070 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5080": {
+      "previousGeneration": "NVIDIA GeForce RTX 4080",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 5090": {
+      "previousGeneration": "NVIDIA GeForce RTX 4090",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4060": {
+      "previousGeneration": "NVIDIA GeForce RTX 3060",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4060 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 3060 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4060 Ti (16GB)": {
+      "previousGeneration": "NVIDIA GeForce RTX 3060 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4070": {
+      "previousGeneration": "NVIDIA GeForce RTX 3070",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4070 Super": {
+      "previousGeneration": "NVIDIA GeForce RTX 3070",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4070 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 3070 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4070 Ti Super": {
+      "previousGeneration": "NVIDIA GeForce RTX 3070 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4080": {
+      "previousGeneration": "NVIDIA GeForce RTX 3080",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4080 Super": {
+      "previousGeneration": "NVIDIA GeForce RTX 3080 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4090": {
+      "previousGeneration": "NVIDIA GeForce RTX 3090",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 4090 D": {
+      "previousGeneration": "NVIDIA GeForce RTX 3090",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3060": {
+      "previousGeneration": "NVIDIA GeForce RTX 2060",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3060 (8GB)": {
+      "previousGeneration": "NVIDIA GeForce RTX 2060",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3060 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 2060 Super",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3070": {
+      "previousGeneration": "NVIDIA GeForce RTX 2070",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3070 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 2070 Super",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3080": {
+      "previousGeneration": "NVIDIA GeForce RTX 2080",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3080 (12GB)": {
+      "previousGeneration": "NVIDIA GeForce RTX 2080",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3080 Ti": {
+      "previousGeneration": "NVIDIA GeForce RTX 2080 Ti",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3090": {
+      "previousGeneration": "NVIDIA Titan RTX",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "NVIDIA GeForce RTX 3090 Ti": {
+      "previousGeneration": "NVIDIA Titan RTX",
+      "basis": "Chosen older-series same-tier or flagship comparator; Super/Ti/D and memory variants do not always have direct equivalents. No claim of equal price or feature set."
+    },
+    "AMD Radeon RX 9050": {
+      "previousGeneration": "AMD Radeon RX 6500 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9050 (8GB)": {
+      "previousGeneration": "AMD Radeon RX 6500 XT (8GB)",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9060": {
+      "previousGeneration": "AMD Radeon RX 7600",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9060 XT": {
+      "previousGeneration": "AMD Radeon RX 7600 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9060 XT (16GB)": {
+      "previousGeneration": "AMD Radeon RX 7600 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9070 GRE": {
+      "previousGeneration": "AMD Radeon RX 7900 GRE",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9070": {
+      "previousGeneration": "AMD Radeon RX 7900 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 9070 XT": {
+      "previousGeneration": "AMD Radeon RX 7900 XTX",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7400": {
+      "previousGeneration": "AMD Radeon RX 6400",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7600": {
+      "previousGeneration": "AMD Radeon RX 6600",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7650 GRE": {
+      "previousGeneration": "AMD Radeon RX 6650 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7600 XT": {
+      "previousGeneration": "AMD Radeon RX 6600 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7700": {
+      "previousGeneration": "AMD Radeon RX 6700",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7700 XT": {
+      "previousGeneration": "AMD Radeon RX 6700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7800 XT": {
+      "previousGeneration": "AMD Radeon RX 6800 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7900 GRE": {
+      "previousGeneration": "AMD Radeon RX 6900 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7900 XT": {
+      "previousGeneration": "AMD Radeon RX 6900 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 7900 XTX": {
+      "previousGeneration": "AMD Radeon RX 6900 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6600": {
+      "previousGeneration": "AMD Radeon RX 5600",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6600 XT": {
+      "previousGeneration": "AMD Radeon RX 5600 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6650 XT": {
+      "previousGeneration": "AMD Radeon RX 5600 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6700": {
+      "previousGeneration": "AMD Radeon RX 5700",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6700 XT": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6750 XT": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6800": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6800 XT": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6900 XT": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "AMD Radeon RX 6950 XT": {
+      "previousGeneration": "AMD Radeon RX 5700 XT",
+      "basis": "Chosen older-series tier or flagship comparator; tier names, memory capacities and prices differ, so this is not a vendor-defined direct predecessor."
+    },
+    "Apple M2": {
+      "previousGeneration": "Apple M1",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M2 Pro": {
+      "previousGeneration": "Apple M1 Pro",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M2 Max": {
+      "previousGeneration": "Apple M1 Max",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M3": {
+      "previousGeneration": "Apple M2",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M3 Pro": {
+      "previousGeneration": "Apple M2 Pro",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M3 Max": {
+      "previousGeneration": "Apple M2 Max",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M4": {
+      "previousGeneration": "Apple M3",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M4 Pro": {
+      "previousGeneration": "Apple M3 Pro",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M4 Max": {
+      "previousGeneration": "Apple M3 Max",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M5": {
+      "previousGeneration": "Apple M4",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M5 Pro": {
+      "previousGeneration": "Apple M4 Pro",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Apple M5 Max": {
+      "previousGeneration": "Apple M4 Max",
+      "basis": "Same Apple M-series tier in the prior numbered generation; explicitly selected Mac configurations and core counts differ."
+    },
+    "Intel Core i9-12900KS": {
+      "previousGeneration": "Intel Core i9-11900K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-10900F": {
+      "previousGeneration": "Intel Core i9-9900",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-10850K": {
+      "previousGeneration": "Intel Core i9-9900K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-9900KS": {
+      "previousGeneration": "Intel Core i7-8700K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-9900K": {
+      "previousGeneration": "Intel Core i7-8700K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-9900KF": {
+      "previousGeneration": "Intel Core i7-8700K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-9900": {
+      "previousGeneration": "Intel Core i7-8700",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i9-9900T": {
+      "previousGeneration": "Intel Core i7-8700T",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i7-9700KF": {
+      "previousGeneration": "Intel Core i7-8700K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i7-9700F": {
+      "previousGeneration": "Intel Core i7-8700",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i7-8086K": {
+      "previousGeneration": "Intel Core i7-7700K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i5-10505": {
+      "previousGeneration": "Intel Core i5-9500",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i5-9600KF": {
+      "previousGeneration": "Intel Core i5-8600K",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i5-9400F": {
+      "previousGeneration": "Intel Core i5-8400",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i3-10105": {
+      "previousGeneration": "Intel Core i3-9100",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i3-10105F": {
+      "previousGeneration": "Intel Core i3-9100F",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "Intel Core i3-9100F": {
+      "previousGeneration": "Intel Core i3-8100",
+      "basis": "Explicit older-platform comparator where the same suffix or Core tier has no direct counterpart; naming, features and power limits can differ."
+    },
+    "NVIDIA GeForce RTX 2060": {
+      "previousGeneration": "NVIDIA GeForce GTX 1060 6GB",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2060 Super": {
+      "previousGeneration": "NVIDIA GeForce GTX 1060 6GB",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2070": {
+      "previousGeneration": "NVIDIA GeForce GTX 1070",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2070 Super": {
+      "previousGeneration": "NVIDIA GeForce GTX 1070 Ti",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2080": {
+      "previousGeneration": "NVIDIA GeForce GTX 1080",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2080 Super": {
+      "previousGeneration": "NVIDIA GeForce GTX 1080",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 2080 Ti": {
+      "previousGeneration": "NVIDIA GeForce GTX 1080 Ti",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA Titan RTX": {
+      "previousGeneration": "NVIDIA TITAN Xp",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "NVIDIA GeForce RTX 3050": {
+      "previousGeneration": "NVIDIA GeForce GTX 1650",
+      "basis": "Explicit older GPU architecture/tier comparator. GTX-to-RTX feature sets, memory and launch prices differ; this is a compute comparison, not a vendor-defined successor claim."
+    },
+    "Apple M1": {
+      "previousGeneration": null,
+      "basis": "First generation of this Apple M-series tier; no previous M-series generation exists. An Intel-Mac comparison would need a separately chosen platform baseline.",
+      "noDirectPredecessor": true
+    },
+    "Apple M1 Pro": {
+      "previousGeneration": null,
+      "basis": "First generation of this Apple M-series tier; no previous M-series generation exists. An Intel-Mac comparison would need a separately chosen platform baseline.",
+      "noDirectPredecessor": true
+    },
+    "Apple M1 Max": {
+      "previousGeneration": null,
+      "basis": "First generation of this Apple M-series tier; no previous M-series generation exists. An Intel-Mac comparison would need a separately chosen platform baseline.",
+      "noDirectPredecessor": true
+    }
+  },
+  "sourceAliases": {
+    "Ryzen 7 1700X PRO": [
+      "AMD Ryzen 7 PRO 1700X"
+    ],
+    "Ryzen 7 1700 PRO": [
+      "AMD Ryzen 7 PRO 1700"
+    ],
+    "Ryzen 5 1600 PRO": [
+      "AMD Ryzen 5 PRO 1600"
+    ],
+    "Ryzen 5 1500 PRO": [
+      "AMD Ryzen 5 PRO 1500"
+    ],
+    "Ryzen 3 1300 PRO": [
+      "AMD Ryzen 3 PRO 1300"
+    ],
+    "Ryzen 3 1200 PRO": [
+      "AMD Ryzen 3 PRO 1200"
+    ]
+  },
+  "macConfigurations": {
+    "Apple M1": {
+      "system": "MacBook Pro (13-inch Late 2020)",
+      "description": "Apple M1 @ 3.2 GHz (8 cores)"
+    },
+    "Apple M1 Pro": {
+      "system": "MacBook Pro (14-inch, 2021)",
+      "description": "Apple M1 Pro @ 3.2 GHz (10 cores)"
+    },
+    "Apple M1 Max": {
+      "system": "MacBook Pro (14-inch, 2021)",
+      "description": "Apple M1 Max @ 3.2 GHz (10 cores)"
+    },
+    "Apple M2": {
+      "system": "MacBook Pro (13-inch, 2022)",
+      "description": "Apple M2 @ 3.5 GHz (8 cores)"
+    },
+    "Apple M2 Pro": {
+      "system": "MacBook Pro (14-inch, 2023)",
+      "description": "Apple M2 Pro @ 3.5 GHz (12 CPU cores, 19 GPU cores)"
+    },
+    "Apple M2 Max": {
+      "system": "MacBook Pro (16-inch, 2023)",
+      "description": "Apple M2 Max @ 3.7 GHz (12 CPU cores, 38 GPU cores)"
+    },
+    "Apple M3": {
+      "system": "MacBook Pro (14-inch, Nov 2023)",
+      "description": "Apple M3 @ 4.1 GHz (8 CPU cores, 10 GPU cores)"
+    },
+    "Apple M3 Pro": {
+      "system": "MacBook Pro (14-inch, Nov 2023)",
+      "description": "Apple M3 Pro @ 4.1 GHz (12 CPU cores, 18 GPU cores)"
+    },
+    "Apple M3 Max": {
+      "system": "MacBook Pro (14-inch, Nov 2023)",
+      "description": "Apple M3 Max @ 4.1 GHz (16 CPU cores, 40 GPU cores)"
+    },
+    "Apple M4": {
+      "system": "MacBook Pro (14-inch, 2024)",
+      "description": "Apple M4 @ 4.4 GHz (10 CPU cores, 10 GPU cores)"
+    },
+    "Apple M4 Pro": {
+      "system": "MacBook Pro (14-inch, 2024)",
+      "description": "Apple M4 Pro @ 4.5 GHz (14 CPU cores, 20 GPU cores)"
+    },
+    "Apple M4 Max": {
+      "system": "MacBook Pro (14-inch, 2024)",
+      "description": "Apple M4 Max @ 4.5 GHz (16 CPU cores, 40 GPU cores)"
+    },
+    "Apple M5": {
+      "system": "MacBook Pro (14-inch, 2025)",
+      "description": "Apple M5 @ 4.6 GHz (10 CPU cores, 10 GPU cores)"
+    },
+    "Apple M5 Pro": {
+      "system": "MacBook Pro (14-inch, 2026)",
+      "description": "Apple M5 Pro @ 4.6 GHz (18 CPU cores, 20 GPU cores)"
+    },
+    "Apple M5 Max": {
+      "system": "MacBook Pro (14-inch, 2026)",
+      "description": "Apple M5 Max @ 4.6 GHz (18 CPU cores, 40 GPU cores)"
+    }
+  }
+}
