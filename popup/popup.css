@@ -25,6 +25,8 @@ body {
 
 .popup {
     padding: 20px;
+    max-height: 560px;
+    overflow-y: auto;
 }
 
 .header h1 {
@@ -56,4 +58,63 @@ body {
     color: var(--muted);
     font-size: 13px;
     line-height: 1.5;
+}
+
+.model-picker label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.model-picker select {
+    width: 100%;
+    min-width: 0;
+    padding: 9px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--background);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 13px;
+    color-scheme: dark;
+}
+
+.model-picker select:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+}
+
+.truthlens-benchmark-results {
+    margin-top: 14px;
+}
+
+.truthlens-benchmark h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+
+.truthlens-benchmark p + p {
+    margin-top: 6px;
+}
+
+.truthlens-benchmark a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--green);
+    font-size: 13px;
+}
+
+.benchmark-notes {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.benchmark-notes summary {
+    cursor: pointer;
+}
+
+.benchmark-notes[open] p {
+    margin-top: 6px;
 }

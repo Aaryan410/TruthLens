@@ -1,9 +1,19 @@
 const statusHeading = document.querySelector(".status h2")
 const statusText = document.querySelector(".status p");
 const statusSection = document.querySelector(".status");
+const modelPicker = document.getElementById("model-picker");
+const modelSelect = document.getElementById("model-select")
 const benchmarkSection = document.createElement("div");
+
+benchmarkSection.id = "benchmark-results";
 benchmarkSection.className = "truthlens-benchmark-results";
+
+benchmarkSection.setAttribute("aria-live", "polite");
 statusSection?.appendChild(benchmarkSection);
+
+let detectedModels = [];
+let benchmarkDatabasePromise = null;
+let BenchmarkRequest = 0;
 
 function formatSpecifications(specifications) {
     return Object.entries(specifications)
@@ -33,14 +43,26 @@ function formatSpecifications(specifications) {
 }
 
 async function loadBenchmarkDatabase() {
-    const url = chrome.runtime.getURL("database/benchmarks.json");
-    const response = await fetch(url);
+    if (!benchmarkDatabasePromise) {
+        benchmarkDatabasePromise = (async () => {
+            const url = chrome.runtime.getURL("database/benchmarks.json");
+            const response = await fetch(url);
 
-    if (!response.ok) {
-        throw new Error(`Could not load ${url}: HTTP ${response.status}`);
+            if (!response.ok) {
+                throw new Error(`Could not load ${url}: HTTP ${response.status}`);
+            }
+
+            return response.json();
+        })();
     }
 
-    return response.json();
+    try {
+        return await benchmarkDatabasePromise;
+    }
+    catch (error) {
+        benchmarkDatabasePromise = null;
+        throw error;
+    }
 }
 
 function findBenchmarksRecord(match, benchmarkModels) {
@@ -108,41 +130,64 @@ function createBenchmarkCard(match, comparison) {
     return card;
 }
 
-async function showBenchmarkComparison(matches) {
+async function showBenchmarkComparison(match) {
+    const request = ++BenchmarkRequest;
     benchmarkSection.replaceChildren();
+    benchmarkSection.setAttribute("aria-busy", "true");
+    const loading = document.createElement("p");
+    loading.textContent = "Loading benchmarks...";
+    benchmarkSection.appendChild(loading);
 
-    let benchmarkDatabase;
     try {
-        benchmarkDatabase = await loadBenchmarkDatabase();
+        const benchmarkDatabase = await loadBenchmarkDatabase();
+
+        if (request !== BenchmarkRequest) {
+            return;
+        }
+
+        benchmarkSection.replaceChildren();
+        const comparison = findBenchmarksRecord(match, benchmarkDatabase.models ?? {});
+
+        if (!comparison) {
+            const message = document.createElement("p");
+            message.textContent = "No previous-generation benchmark has been added for this model yet.";
+            benchmarkSection.appendChild(message);
+            return;
+        }
+
+        benchmarkSection.appendChild(createBenchmarkCard(match, comparison));
     }
 
     catch (error) {
+        if (request !== BenchmarkRequest) {
+            return;
+        }
         console.error("[TruthLens benchmarks]", error);
+        benchmarkSection.replaceChildren();
         const message = document.createElement("p");
         message.textContent = "Benchmark data could not be loaded.";
         benchmarkSection.appendChild(message);
-        return;
     }
 
-    const benchmarkModels = benchmarkDatabase.models ?? {};
-    const comparisons = matches
-        .map(match => ({
-            match,
-            comparison: findBenchmarksRecord(match, benchmarkModels)
-        }))
-        .filter(item => item.comparison);
-
-    if (comparisons.length === 0) {
-        const message = document.createElement("p");
-        message.textContent = "No previous-generation benchmark has been added for these models yet.";
-        benchmarkSection.appendChild(message);
-        return;
-    }
-
-    for (const { match, comparison } of comparisons) {
-        benchmarkSection.appendChild(createBenchmarkCard(match, comparison));
+    finally {
+        if (request === BenchmarkRequest) {
+            benchmarkSection.setAttribute("aria-busy", "false");
+        }
     }
 }
+
+async function showSelectedHardware() {
+    const match = detectedModels[Number(modelSelect.value)];
+    if (!match) {
+        return;
+    }
+
+    const specs = formatSpecifications(match.specifications);
+    statusText.textContent = `${match.name}\n${specs}`;
+    await showBenchmarkComparison(match);
+}
+
+modelSelect.addEventListener("change", showSelectedHardware);
 
 async function showPageScan() {
     try {
@@ -186,14 +231,18 @@ async function showPageScan() {
             `Detected ${scan.matches.length} hardware model` +
             (scan.matches.length === 1 ? "" : "s");
 
-        statusText.textContent = scan.matches
-            .map(match => {
-                const specs = formatSpecifications(match.specifications);
-                return `${match.name}\n${specs}`;
-            })
-            .join("\n\n");
+        detectedModels = scan.matches;
+        modelSelect.replaceChildren();
+        detectedModels.forEach((match, index) => {
+            const option = document.createElement("option");
+            option.value = String(index);
+            option.textContent = match.name;
+            modelSelect.appendChild(option);
+        });
+        modelSelect.value = "0";
+        modelPicker.hidden = detectedModels.length < 2;
         
-        await showBenchmarkComparison(scan.matches);
+        await showSelectedHardware();
     }
 
     catch (error) {

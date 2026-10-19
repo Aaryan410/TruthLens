@@ -7,6 +7,7 @@
         <title>TruthLens</title>
 
         <link rel = "stylesheet" href = "popup.css">
+        <script src = "popup.js" defer></script> 
     </head>
     <body>
         <main class = "popup">
@@ -17,12 +18,16 @@
 
             <section class = "status">
                 <h2>No hardware detected</h2>
-                <p>
+                <div id = "model-picker" class = "model-picker" hidden>
+                    <label for = "model-select">Choose a detected model</label>
+                    <select id = "model-select" aria-controls = "hardware-summary benchmark-results"></select>
+                </div>
+
+                <p id = "hardware-summary">
                     Visit a supported product page to see real benchmark data.
                 </p>
             </section>
         </main>
     </body>
-    <script src = "popup.js"></script>
 
 </html>
