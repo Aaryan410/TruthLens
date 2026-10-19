@@ -150,7 +150,7 @@ async function showBenchmarkComparison(match) {
 
         if (!comparison) {
             const message = document.createElement("p");
-            message.textContent = "No previous-generation benchmark has been added for this model yet.";
+            message.textContent = `No benchmark comparison data available for ${match.name} yet.`;
             benchmarkSection.appendChild(message);
             return;
         }
