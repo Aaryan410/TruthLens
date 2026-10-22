@@ -28,7 +28,7 @@ def score(record, metric):
 
 
 def compare_scores(left, right, hardware):
-    metrics = {"single-score": "Single-core", "multi-core": "Multi-core"}
+    metrics = {"single-core": "Single-core", "multi-core": "Multi-core"}
     if hardware == "gpu":
         metrics = {"vulkan": "Vulkan compute"}
 
