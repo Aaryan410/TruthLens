@@ -10,3 +10,9 @@ def load_data(component, company):
 
     with open(data_file, "r", encoding = "utf-8") as file:
         return json.load(file)
+
+
+def load_benchmark_catalog():
+    data_file = Path(__file__).parent.parent / "database" / "benchmark_catalog.json"
+    with data_file.open(encoding = "utf-8") as file:
+        return json.load(file)
