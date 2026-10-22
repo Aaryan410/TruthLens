@@ -8,8 +8,10 @@ form.addEventListener("change", (event) => {
     }
 
     if (changed.name === "hardware") {
-        form.querySelectorAll("[data-side] select").forEach(select => {
-            select.disabled = true;
+        const dropdowns = form.querySelectorAll("[data-side] select");
+
+        dropdowns.forEach(dropdown => {
+            dropdown.disabled = true;
         });
     } 
     else {
@@ -19,11 +21,11 @@ form.addEventListener("change", (event) => {
             return;
         }
 
-        const selects = [...card.querySelectorAll("select")];
-        const index = selects.indexOf(changed);
+        const dropdowns = [...card.querySelectorAll("select")];
+        const changedIndex = dropdowns.indexOf(changed);
 
-        selects.slice(index + 1).forEach(select => {
-            select.disabled = true;
+        dropdowns.slice(changedIndex + 1).forEach(dropdown => {
+            dropdown.disabled = true;
         });
     }
 

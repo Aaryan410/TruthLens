@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<htmlc lang = "en">
+<html lang = "en">
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width", initial-scale = 1.0>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
         <title>TruthLens</title>
 
         <link rel = "stylesheet" href = "{{ url_for('static', filename = 'style.css') }}">
@@ -10,7 +10,7 @@
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
         <link href = "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel = "stylesheet">
 
-        <script src = "{{ url_for('static', filename = 'compare.js') }}"></script>
+        <script src = "{{ url_for('static', filename = 'compare.js') }}" defer></script>
     </head>
     <body>
         <main class = "page">
@@ -30,7 +30,7 @@
 
                 <div class = "comparison-grid">
                     {% for side in sides %}
-                        <section class = "model_name" data-side = "{{ side.prefix }}" aria-labelledby = "heading-{{ side.prefix }}">
+                        <section class = "model-card" data-side = "{{ side.prefix }}" aria-labelledby = "heading-{{ side.prefix }}">
                             <h2 id = "heading-{{ side.prefix }}">{{ side.title }}</h2>
                             <div class = "side-fields">
                                 {% for field in side.fields %}
@@ -215,22 +215,5 @@
                 {% endif %}
            </section>
         </main>
-
-        <script>
-            const form = document.getElementById("hardware-form");
-            const selects = [...form.querySelectorAll("select")];
-
-            form.addEventListener("change", (event) => {
-                const changed = selects.indexOf(event.target);
-
-                if (changed === -1) return;
-
-                selects.slice(changed + 1).forEach(select => {
-                    select.disabled = true;
-                })
-
-                form.requestSubmit();
-            })
-        </script>
     </body>
 </html>
