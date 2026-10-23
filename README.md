@@ -6,6 +6,30 @@
 - So my point is that why is Apple comparing their latest chip (M5) with a 5 year old chip (M1), it is clearly not optimal with the rapid growth in tech nowadays, and also there are many more tech companies that do this.
 - So my chrome extension will show the customer the real benchmarks of the processors and graphic card, directly comparing it with previous generation and will use AI to provide a summary by comparing benchmarks of a hardware from multiple reliable sources.
 
----
 
-🚧 Under construction 🚧
+## Tech Stack
+- Python
+- HTML, CSS and JS
+
+https://truthlens-ten-iota.vercel.app/
+
+## Hardwares
+
+### CPU
+- Intel
+- AMD
+- Apple Silicon
+
+### GPU
+- NVIDIA
+- AMD
+
+## Webpage link
+- https://truthlens-ten-iota.vercel.app/
+
+## Extension download link
+- 
+
+## Run it locally?
+- Well clone the repo.
+- Run "python app.py" to run it locally.
