@@ -233,3 +233,8 @@ a {
 @media (max-width: 390px) {
     .side-fields { grid-template-columns: 1fr; }
 }
+
+.site-footer { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); text-align: center; font-size: 15px; }
+.policy-page { max-width: 800px; }
+.policy-content { margin-top: 32px; margin-bottom: 12px; }
+.policy-content p, .policy-content li { color: var(--muted); }

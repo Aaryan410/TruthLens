@@ -19,6 +19,7 @@ COMPANIES = {
     }
 }
 
+
 def selected_value(name, choices, default = None):
     value = request.args.get(name)
 
@@ -76,6 +77,11 @@ def home():
     comparison = compare_scores(left["benchmark"], right["benchmark"], hardware)
 
     return render_template("index.html", hardware = hardware, sides = [left, right], comparison = comparison, catalog_error = catalog_error, generated_at = catalog.get("generatedAt", ""),)
+
+
+@app.route("/privacy")
+def privacy():
+    return render_template("privacy.html")
 
 
 if __name__ == "__main__":
